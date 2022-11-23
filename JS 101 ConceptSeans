@@ -45,6 +45,73 @@ functions work by taking an input or argument then giving an output that can be 
   }
 function expression=functions are just objects and can be used as expressions, allowing them to be used as variables or construct
   higher order functions where a function is used as an argument or a return value
-closure=nest function
+   function higherOrder(fun) {
+    fun();
+    return function() {
+     }
+   }
+closure=nested functions, encapsulate data and logic, not stored on call stack(short term memory) stored on heap memory, can be used later on calls
+ function giveMeClosure() {
+  let a = 10;
+  return function() {
+   a++;
+   return a;
+  }
+}
+this=keyword that references an object based on how the function is called
+function wtfIsThis() {
+ console.log(this);
+ }
+ const person = {};
+bind=you can manually bind objects
+ const personFun = wtfIsThis.bind(person)
+=> = arrow syntax, another way to bind functions, always anonymous
+passed by value=when passing arguments of a primitive like a number a copy is created of the original variable
+passed by reference=when passing arguments of objects(stored on heap memory) passed by reference, might mutate parts of code
+objects=python classes
+object literal= use {} with key value pairs or properties, objects can inherit properties from eachother(like a python class)
+object type=can be created with constructer
+ const human = new Object();
+prototype chain=every object has a private property that links to one original prototype
+ human.__proto__.__proto__;
+ #or
+ Object.getPrototypeOf(human);
+Javascript supports OOP(object oriented programming) with a Class keyword, prototypal inheritance
+Getter/Setter=used through constructer 
+Static Keyword
+Arrays=collection of indexed items
+Set
+Map=loopable key value pairs
+Has a garbage collector to reduce memory usage
+Has a non blocking event loop, can write asynchronus code that runs in a seperate threadpool
+setTimeOut=Takes a function as an argument, won't run function until time has elapsed
+ Also known as callback function
+Promise= a variable that is not known now, but will be known in future
+ .then
+ .catch
+ to catch promise errors
+ or create an async function to automatically return a promise
+await keyword
+try/catch block to catch errors
+ES modules to share code between files, as JS grows need multiple files to work with
+import keyword=default export=all code is default private, make it default export to bring in external functions
+NPM(Node Package Manager)=largest JS package manager, code written by others, stored in node_modules, as well as a package.JSON file
+DOM(Document Object Model)=HTML tree
+query selector=takes an HTML element from the tree using a 
+CSS selector=returns an instance of the element class
+.querySelectorAll()=grabs all elements of a select type
+.addEventListener()=assigns a function to be called when an event happens
+Imperative(UI mutated directly) vs Declarative code=changes UI as a function of input data
+Module Bundler=Bundle assets=After a JS project is completed, need to bundle all work 
+Network Waterfall=checks size of JS file before creating a webpage(dev tool)
+Can split bundles into multiple files then use dynamic imports to only import when it is needed
+node runs on browser and server
+can create full stack desktop apps,
+IOS, and android with react native
+typescript or ESlint= tools that use static analysis to improve your code
+
+
+
+
 
 
