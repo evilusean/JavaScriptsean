@@ -1,0 +1,50 @@
+101 Things to know about Javascript:
+https://www.youtube.com/watch?v=lkIFF4maKMU&ab_channel=Fireship
+
+JavaScript:
+Created in 1993 by Brenden Eich for Netscape Webbrowser
+Standard Implementation is called ecma(ecmascript)-default code in all webbrowsers
+Natively runs in every web browser
+Interpreted Language
+Dynamically typed language, no data type annotations are neccesary
+Primitive data types in JS= string, number, bigint, boolean, undefined, symbol, null
+V8=JS Engine =converts JS code to machine code quickly through (JIT)Just in time compilation
+To use JS on a webpage requires an HTML document
+ using a script tag <script></script>
+ reference an external file using src="external.js"
+  <script src="external.js"></script>
+print function = console.log('Hello world!");
+define variables = let
+  let avogadros = 112358;
+If you don't assign a variable it automatically uses 'undefined'
+explicitly represent an empty value using null
+  let Variable1 = null;
+any value that is not a primitive data type will inherit from the object class
+  luckyNum = new Object();
+assign a variable with const, can not be reassigned later
+  const name = 'Sean';
+Can also use 'var' to assign variables
+  var bad = 'avoid var unless you are smart'
+technically semicolons are optional, because if you leave them out JS parser will add them automatically
+lexical environment determines where variables will work and where they don't
+global scope = works anywhere
+  let a = 'global';
+local scope =if you define a variable inside of a function it becomes local to that function and can not be used outside of it
+  function fun() {
+    let a = 'function';
+  }
+block scope= if you have a statement inside of a conditional, can not be used outside of curly braces unless you declare with var
+  if (true) {
+    let a = 'block';
+    var b = 'hoisted';
+  }
+when a function is used by itself it is called a function definition or statement
+functions work by taking an input or argument then giving an output that can be used somewhere else
+  function(a, b) {
+    return a + b;
+  }
+function expression=functions are just objects and can be used as expressions, allowing them to be used as variables or construct
+  higher order functions where a function is used as an argument or a return value
+closure=nest function
+
+
