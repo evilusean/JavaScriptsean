@@ -63,8 +63,16 @@ Designer <Coder> website design with living vs dead cat pic portfolio pic +left/
 Eye Movement Tracker / On hover, programming languages popping out of head+brain/Design(red White checker)/Coding (Black/white checker) on hover
 Roadmap with popups/links to progresssean/projects/learning journey +git hub completion bar(look at all that green)
 Link to old portfolio, portfolio inception, portfolio inceptsean
-Mil Picture Roadmap Zoomout/Highlight specific parts of github list based on portfolio projects + Chyna
+Mil Picture Roadmap Zoomout/Highlight specific parts of github list based on portfolio projects + Chyna +Layout description+
 NPC horde animated "What do we want?" "What do we want?" Chad in background hand on hover with strings connected to NPC's Angry podium NPC
+Layout:
++Face Page/About Me/Skills Summary(icons) 
+  + RoadMap (back to summary section button, include military, china teaching, grocery,landscaping,plumbing small blips=one sentence, 
+    github progress by year with highlights) links to projects on roadmap with highlighted github sections + to be continued section followed by NPC horde
+  + Skills List+further Details(python+libraries/HTML+CSS+Javascript+React+years)
+  + Projects Page(links to github/actual work) 
+  + Contact Me Form + Icons for non social media
+Base Template? If using javascript animations-might not be able to make responsive-already have a responsive portfolioception
 
 FreeCodeCamp 21Hour Course(HTML/CSS/Javascript):
 https://www.youtube.com/watch?v=zJSY8tbf_ys&ab_channel=freeCodeCamp.org
