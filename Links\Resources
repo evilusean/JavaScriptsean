@@ -1,4 +1,5 @@
-FreeCodeAcademy -> The Odin Project -> CS50 Web Development -> Eat Zee Bugz Project + More projects till hired
+FreeCodeCamp -> The Odin Project -> CS50 Web Development -> Eat Zee Bugz Project + More projects till hired
+Projects: FCC -> Odin -> Eat Zee Bugz Game -> BugTracker -> 3D Tshirt Online Shop -> AI midjourney site -> new portfolio -> Apply
 FreeCodeCamp Certifications:(Do in order)
 https://www.freecodecamp.org/news/freecodecamp-certifications/
 https://www.freecodecamp.org/learn/2022/responsive-web-design/
@@ -75,6 +76,19 @@ https://www.youtube.com/watch?v=jx5hdo50a2M&ab_channel=JavaScriptMastery
 
 TWT Project slot machine:
 https://www.youtube.com/watch?v=E3XxeE7NF30
+
+1 project to build (Bug Tracker/Help desk ticket system/delivery notification system):
+https://www.youtube.com/watch?v=oC483DTjRXU
+MVC Design pattern(Model view controller): Use proper design pattern same way as companies
+Professional UI, Clean, responsive, - can use a bootstrap template 
+project MUST use a database, must perform CRUD(create read update and delete) option,  
+login page/security+authentication/authorization- can use Auth0/Firebase, 
+solve a business problem
+SRS = software requirement specification=write down all the features and benefits you want it to have- divide each feature and complete in 1 week sprints
+  Track progress, take notes so you can talk about it during interview, just focus on each part as it comes up, use the bug tracker you are building to track progress
+  can show bugtracker that you built with the progress along the way, show construction phase with SRS
+Build the project with the tech stack you will be applying for- Web Dev = MERNS, he recommends: .net ndc and c# - not applying for a software dev posistion
+(DaGram Project already has all these-just not built in react.)
 
 Jaoanese Random big jumber generator + spelling checker (different spellings for 100's hyaku vs byaku  etc, reference page 75 genki textbook)
 
