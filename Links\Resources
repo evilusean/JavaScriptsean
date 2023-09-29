@@ -235,9 +235,13 @@ Cloud DB: Mongo Atlas / Firebase / SupaBase / FaunaDB
 ORMS (Object Relational Mapper ) : Prisma / Mongoose / Sequelize / SQL Alchemy
 Authentication : Seassions & Cookies / JSON Web tokens / OAuth / Auth0 / AWS cognito / Okta / Firebase / Password hashing, 2 factor auth
 Full Stack Deployment : Linode / Render(free tier) / Heroku / AWS 
+Web Security : OWASP, ZAP, Nessus, Burp Suite Vs SQL Injection / XSS(Cross site scripting) / Cross-Site Request Forgery (CSRF)
 Desktop : Electron / Nw.js / TKinter(python GUI) / C# / Java
 Debugging / Testing: Jest
 
+WebDev 101 :
+https://www.youtube.com/watch?v=erEgovG9WBs&ab_channel=Fireship
 
+SinglePage Web App Developer Freelance Vs
 Glassdoor React Developer Salary (All Years Experience -> 0-1 Years = 70k starting, minimum) :
 https://www.glassdoor.com/Salaries/react-developer-salary-SRCH_KO0,15.htm
