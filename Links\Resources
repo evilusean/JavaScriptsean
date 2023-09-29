@@ -2,7 +2,8 @@ FreeCodeCamp -> The Odin Project -> CS50 Web Development -> Eat Zee Bugz Project
 Projects: FCC -> Odin -> Eat Zee Bugz Game -> BugTracker -> 3D Tshirt Online Shop -> AI midjourney site -> Single page web app(simple) -> new portfolio ->OpenSrc-> Apply
 HTML -> CSS -> Javascript -> React -> Node -> Express -> Next.js ->  Mongo -> PHP -> Typescript -> Tailwind ->Wordpress *Build projects in each one along the way*
 BETH = Bun, Elysia(JSX -> HTMX), Turso, HTMX Vs PHP Vs LAMP = linux, Apache, MySQL, PHP/PERL/Python Vs MEVN Vs PERN Vs Docker Vs MERN
-Where to host website: Raspberry Pi PHP webserver vs Apache webserver vs 3rd party vs github vs nginx vs wordpress vs
+Vue + Nuxt + Svelte(classic JS compiles) + Sveltekit(server side render)  vs React + next.js(+redwood+blitz) / Redux/remix
+Where to host website: Raspberry Pi PHP webserver vs Apache webserver vs 3rd party vs github vs nginx vs wordpress vs netlify(free) vs vercel(free tier) 
 https://dev.to/jorenrui/6-ways-to-deploy-your-personal-websites--php-mysql-web-apps-for-free-4m3a
 
 FreeCodeCamp Certifications:(Do in order)
@@ -214,11 +215,29 @@ CSS Zero2Hero (6 hours):
 FlexBox(41:00 - 3:00:6):
 https://www.youtube.com/watch?v=0kS3M8a6kP8&t=2487&list=RDCMUCt7T2EvYBqvlxNU3fbE4Y7g&index=2&ab_channel=ZeroToMastery
 
+CSS Grid:
+
 Laravel (PHP) Get Started (2hours) :
 https://www.youtube.com/watch?v=AGE3wRKljkw&ab_channel=EnvatoTuts%2B
 
 Design Tools: Adobe XD, Figma(free), Sketch(Mac only), Invision, Lucid Charts
 https://github.com/bradtraversy/design-resources-for-developers
+
+Web Tools : NodePackageManger(NPM), Webpack, Parcel, Viite, Snowpack
+API's: Canvas, Geolocation, Speech, Audio/video, Web RTC(real time communication), local storage 
+Static Site Generators(search engine speed): Gatsby(React), Astro(React/Vue/Svelt), Gridsome(Vue), Jekyll(Ruby), Hugo(Go), Hexo(Node.js), Pelican(Python)
+Headless CMS(content management systems) / Jamstack : Strapi(Node.js), Sanity.io, Keystone, Contentful
+Visualization: Motion UI(animation), FramerMotion(React), Three.js(2D/3D), GSAP, 
+NoCode Tools : Wordpress, Wix, Webflow, Shopify
+Frameworks: Node.js(express, fastify, nestJS, adonis), Python(Django, Flask, FastAPI), PHP(Laravel, symfony, codeigniter, slimPHP), 
+Database (Relational SQL vs Non-relational NoSQL) : PostGreSQL Vs MySQL Vs MongoDB Vs Cassandra Vs CouchBase Vs DynamoDB Vs SQLite Vs .md Vs H2DB Vs redis
+Cloud DB: Mongo Atlas / Firebase / SupaBase / FaunaDB 
+ORMS (Object Relational Mapper ) : Prisma / Mongoose / Sequelize / SQL Alchemy
+Authentication : Seassions & Cookies / JSON Web tokens / OAuth / Auth0 / AWS cognito / Okta / Firebase / Password hashing, 2 factor auth
+Full Stack Deployment : Linode / Render(free tier) / Heroku / AWS 
+Desktop : Electron / Nw.js / TKinter(python GUI) / C# / Java
+Debugging / Testing: Jest
+
 
 Glassdoor React Developer Salary (All Years Experience -> 0-1 Years = 70k starting, minimum) :
 https://www.glassdoor.com/Salaries/react-developer-salary-SRCH_KO0,15.htm
