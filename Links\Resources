@@ -156,7 +156,9 @@ Build the project with the tech stack you will be applying for- Web Dev = MERNS,
 (DaGram Project already has all these-just not built in react.)
 
 Japanese Random big jumber generator + spelling checker (different spellings for 100's hyaku vs byaku  etc, reference page 75 genki textbook)
-Tokyo skyline css (sticky moon, absolute buildings etc) placement art
+Tokyo skyline css (sticky moon, absolute buildings etc) placement art (example) or CSS vs SVG for display image(moon hover highlight translateseans):
+https://codepen.io/aradevich/pen/ExgaOKv
+https://freefrontend.com/css-illustrations/
 
 New Portfolio:
 Designer <Coder> website design with living vs dead cat pic portfolio pic +left/right brain animation +checkerboard / Karma Face = Swirls + Irobot/Hal
