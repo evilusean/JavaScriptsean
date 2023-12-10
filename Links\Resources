@@ -1,6 +1,6 @@
 FreeCodeCamp -> The Odin Project -> CS50 Web Development -> Eat Zee Bugz Project + More projects till hired
 Projects: FCC -> Odin -> Eat Zee Bugz Game -> BugTracker -> 3D Tshirt Online Shop -> AI midjourney site -> Single page web app(simple) -> new portfolio ->OpenSrc-> Apply
-HTML -> CSS -> Javascript -> React -> Node -> Express -> Next.js ->  Mongo -> PHP -> Typescript -> Tailwind ->Wordpress *Build projects in each one along the way*
+HTML -> CSS -> Javascript -> React -> Node -> PHP -> Express -> Next.js ->  Mongo -> Typescript -> Tailwind ->Wordpress *Build projects in each one along the way*
 BETH = Bun, Elysia(JSX -> HTMX), Turso, HTMX Vs PHP Vs LAMP = linux, Apache, MySQL, PHP/PERL/Python Vs MEVN Vs PERN Vs Docker Vs MERN
 Vue + Nuxt + Svelte(classic JS compiles) + Sveltekit(server side render)  vs React + next.js(+redwood+blitz) / Redux/remix
 Where to host website: Raspberry Pi PHP webserver vs Apache webserver vs 3rd party vs github vs nginx vs wordpress vs netlify(free) vs vercel(free tier) 
