@@ -176,7 +176,9 @@ https://github.com/harryli0088/css-parallax-city-skyline
 https://codepen.io/coderado
 Boxxy SVG editor:
 https://boxy-svg.com/app/
-
+Seperate into 3 divs and add bootstrap to make it  responsive (div 1 = distinct building)(div 2 = shinto shrine/landmark)(div 3 = distinct building + red moon)
+Below Create 2 divs for coder/designer  half face (can scratch away designer face to skull -using cursor - red same size as moon above)
+Below add "I am Shawn" scratches away to Japanese (Watashi wa Shun desu + kanjis) - same moon cursor
 
 New Portfolio:
 Designer <Coder> website design with living vs dead cat pic portfolio pic +left/right brain animation +checkerboard / Karma Face = Swirls + Irobot/Hal
