@@ -14,8 +14,8 @@
   }
   
   body {
-    height: 100vh;
-    margin: 0;
+    height: 70vh;
+    margin: 0 auto;
     overflow: hidden;
   }
   
@@ -315,4 +315,4 @@
         );
     }
   }
-  
+/* Change @media query to change when sun emoji is clicked  
