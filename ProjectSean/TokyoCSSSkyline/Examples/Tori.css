@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700');
+$main: #E04E4C;
+$second: #493E44;
+@mixin size($w: 100%,
+$h: 100%) {
+  width: $w;
+  height: $h;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.upper p {
+  font-size:10px;
+  text-align:center;
+} 
+
+body {
+  overflow: hidden;
+  background: #F9F5EA;
+  font-family: 'Raleway', sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.gate {
+  position: relative;
+  width: 250px;
+  height: 140px;
+}
+
+.upper,
+.pillar,
+.red,
+.red-two,
+.side-gate,
+.lantern,
+.desc {
+  position: absolute;
+}
+
+.upper {
+  z-index: 20;
+  @include size(48vmin,
+  5vmin);
+  background: $second;
+  border-radius: 1vmin 1vmin 10vmin 10vmin;
+}
+
+.red {
+  border-radius: 1vmin 1vmin 10vmin 10vmin;
+  z-index: 15;
+  background: $main;
+  @include size(39vmin,
+  5vmin);
+  top: 3vmin;
+  left: 4.5vmin;
+  box-shadow: inset 0 -0.5vmin 0 rgba(#000, 0.1);
+}
+
+.red-two {
+  @include size(45vmin,
+  5vmin);
+  background: $main;
+  top: 11vmin;
+  left: 0.5vmin;
+  border-radius: 0.5vmin;
+  box-shadow: inset 0 -1vmin 0 rgba(#000, 0.1);
+  &:before {
+    z-index: 99;
+    position: absolute;
+    content: '';
+    background: $main;
+    @include size(2vmin,
+    4vmin);
+    top: -4vmin;
+    left: 22vmin;
+  }
+}
+
+.lantern {
+  background: #F25C54;
+  @include size(7vmin,
+  8vmin);
+  border-radius: 40%;
+  top: 17vmin;
+  left: 19.6vmin;
+  &:before,
+  &:after {
+    position: absolute;
+    content: '';
+  }
+  &:before {
+    z-index: -1;
+    @include size(3vmin,
+    3vmin);
+    border-radius: 100%;
+    background: $second;
+    top: -1vmin;
+    left: 2vmin;
+  }
+  &:after {
+    z-index: -1;
+    background: $second;
+    @include size(3vmin,
+    2vmin);
+    top: 7vmin;
+    left: 2vmin;
+  }
+}
+
+.pillar {
+  z-index: 3;
+  @include size(5vmin,
+  36vmin);
+  background: $main;
+  left: 7vmin;
+  box-shadow: inset -0.5vmin 0 0 rgba(#000, 0.1);
+  &:before {
+    position: absolute;
+    content: '';
+    @include size(7vmin,
+    6vmin);
+    background: $second;
+    bottom: 0;
+    left: -1vmin;
+    border-radius: 1vmin;
+  }
+}
+
+.left {
+  left: 34vmin;
+}
+
+.side-gate {
+  z-index: 1;
+  @include size(11vmin,
+  2vmin);
+  background: $main;
+  left: -2vmin;
+  top: 23vmin;
+  border-radius: 0.5vmin;
+   box-shadow: inset 0 -0.5vmin  0 rgba(#000,0.1);
+  &:before,
+  &:after {
+    position: absolute;
+    content: '';
+    border-radius: 0.5vmin;
+  }
+  &:before {
+    z-index: -1;
+    background: $main;
+    @include size(2vmin,
+    12vmin);
+    left: 3vmin;
+  }
+  &:after {
+    @include size(9vmin,
+    2vmin);
+    background: $second;
+    top: 11vmin;
+    left: 0.5vmin;
+  }
+}
+
+.side-gate-two {
+  @extend .side-gate;
+  left: 38vmin;
+  &:before {
+    left: 4vmin;
+  }
+  &:after {
+    left: 0;
+  }
+}
+
+.desc {
+  bottom: 5%;
+  right: 2%;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
