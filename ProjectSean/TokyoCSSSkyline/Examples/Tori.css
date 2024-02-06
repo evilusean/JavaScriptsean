@@ -2,14 +2,14 @@
     margin: 0;
     padding: 0;
 }
-.upper p {
-    font-size: 10px;
-    text-align: center;
-}
 body {
     overflow: hidden;
     background: #f9f5ea;
     font-family: 'Raleway', sans-serif;
+}
+.upper p {
+    font-size: 10px;
+    text-align: center;
 }
 .container {
     display: flex;
@@ -17,6 +17,9 @@ body {
     align-items: center;
     flex-direction: column;
     height: 100vh;
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
 .gate {
     position: relative;
