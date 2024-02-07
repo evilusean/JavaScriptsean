@@ -61,8 +61,7 @@ body {
     position: absolute;
     bottom: 0;
     right: 0;
-    width: 50%;
-    height: 50%;
+    transform: scale(0.5);
 }
 
 .base, .middle, .top {
