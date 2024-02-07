@@ -17,7 +17,8 @@
   
   body {
     height: 100vh;
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
   }
   
@@ -326,13 +327,12 @@
 }
 .container {
     display: flex;
-    justify-content: center;
+    justify-content: bottom;
     align-items: center;
     flex-direction: column;
-    height: 100vh;
     position: absolute;
-    left: 0;
     bottom: 0;
+    left: 0;
 }
 .gate {
     position: relative;
