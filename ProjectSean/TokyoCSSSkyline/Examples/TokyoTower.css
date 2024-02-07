@@ -1,0 +1,1794 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+.container* {
+    box-sizing: border-box;
+    margin: 0;
+}
+.container {
+    float: left;
+    margin: 0 250px;
+    text-align: center;
+}
+.part1 {
+    width: 350px;
+    height: 0;
+    border-left: 65px solid transparent;
+    border-right: 65px solid transparent;
+    border-bottom: 115px solid #000;
+    display: block;
+    text-align: center;
+    position: relative;
+}
+.part1 .circle {
+    width: 215px;
+    height: 220px;
+    border-radius: 160px;
+    background-color: #fff;
+    display: inline-block;
+    margin-top: 25px;
+}
+.part1 .style_bar {
+    height: 8px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #fff;
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+}
+.part1 .p1_bar_l_s1 {
+    height: 8px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #fff;
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 102px;
+    left: -58px;
+    width: 64px;
+}
+.part1 .p1_bar_l_s2 {
+    height: 8px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #fff;
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 82px;
+    left: -46px;
+    width: 57px;
+}
+.part1 .p1_bar_l_s3 {
+    height: 8px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #fff;
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 62px;
+    left: -34px;
+    width: 56px;
+}
+.part1 .p1_bar_l_s4 {
+    height: 8px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #fff;
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 42px;
+    left: -21px;
+    width: 56px;
+}
+.part1 .p1_bar_l_s5 {
+    height: 8px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #fff;
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 22px;
+    left: -9px;
+    width: 56px;
+}
+.part1 .p1_bar_l_s6 {
+    height: 8px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #fff;
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 5px;
+    left: 0px;
+    width: 219px;
+}
+.part1 .p1_bar_r_s1 {
+    height: 8px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #fff;
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 102px;
+    right: -58px;
+    width: 61px;
+}
+.part1 .p1_bar_r_s2 {
+    height: 8px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #fff;
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 82px;
+    right: -46px;
+    width: 57px;
+}
+.part1 .p1_bar_r_s3 {
+    height: 8px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #fff;
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 62px;
+    right: -34px;
+    width: 56px;
+}
+.part1 .p1_bar_r_s4 {
+    height: 8px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #fff;
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 42px;
+    right: -21px;
+    width: 56px;
+}
+.part1 .p1_bar_r_s5 {
+    height: 8px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #fff;
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 22px;
+    right: -8px;
+    width: 56px;
+}
+.base1 {
+    width: 84px;
+    height: 10px;
+    background: #000;
+    position: absolute;
+    top: 116px;
+    left: -73px;
+}
+.base2 {
+    width: 84px;
+    height: 10px;
+    background: #000;
+    position: absolute;
+    top: 116px;
+    right: -73px;
+}
+.part2_container {
+    display: block;
+}
+.part2_container .part2 {
+    width: 220px;
+    height: 23px;
+    background: #000;
+    border: 1px solid #fff;
+    display: inline-block;
+    vertical-align: bottom;
+    position: relative;
+}
+.part2_container .p2_bar_s {
+    height: 8px;
+    bottom: 0;
+    border-style: dashed;
+    position: absolute;
+    border-color: #000;
+    background: #fff;
+    transform: scaleY(1);
+    top: 6px;
+    width: 216px;
+    left: 0px;
+}
+.part3_container {
+    display: block;
+}
+.part3_container .part3 {
+    width: 205px;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #000;
+    display: inline-block;
+    vertical-align: bottom;
+    position: relative;
+}
+.part3_container .part3 .p3_s1 {
+    width: 100px;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    border-bottom: 60px solid #fff;
+    display: inline-block;
+    margin-top: 20px;
+}
+.part3_container .p3_bar_s {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #fff;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+}
+.part3_container .p3_bar_l_s1 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #fff;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 73px;
+    width: 39px;
+    left: -37px;
+}
+.part3_container .p3_bar_l_s2 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #fff;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 53px;
+    width: 39px;
+    left: -28px;
+}
+.part3_container .p3_bar_l_s3 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #fff;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 33px;
+    width: 39px;
+    left: -19px;
+}
+.part3_container .p3_bar_l_s4 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #fff;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 7px;
+    width: 112px;
+    left: -4px;
+}
+.part3_container .p3_bar_l_s5 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #fff;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 87px;
+    width: 112px;
+    left: -4px;
+}
+.part3_container .p3_bar_r_s1 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #fff;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 73px;
+    width: 39px;
+    right: -37px;
+}
+.part3_container .p3_bar_r_s2 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #fff;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 53px;
+    width: 39px;
+    right: -28px;
+}
+.part3_container .p3_bar_r_s3 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #fff;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 33px;
+    width: 39px;
+    right: -19px;
+}
+.part4_container {
+    display: block;
+}
+.part4_container .part4 {
+    width: 105px;
+    height: 20px;
+    background: #000;
+    border: 1px solid #fff;
+    display: inline-block;
+    vertical-align: bottom;
+    position: relative;
+}
+.part4_container .p4_bar_s {
+    height: 8px;
+    bottom: 0;
+    border-style: dashed;
+    position: absolute;
+    border-color: #000;
+    background: #fff;
+    transform: scaleY(1);
+    top: 4px;
+    width: 101px;
+    left: 0px;
+}
+.part5_container {
+    display: block;
+}
+.part5_container .part5 {
+    width: 98px;
+    height: 0;
+    border-left: 45px solid transparent;
+    border-right: 45px solid transparent;
+    border-bottom: 278px solid #000;
+    display: inline-block;
+    vertical-align: bottom;
+    position: relative;
+}
+.part5_container .part5 .p5_s1 {
+    width: 35px;
+    border-left: 18px solid transparent;
+    border-right: 18px solid transparent;
+    border-bottom: 165px solid #fff;
+    height: 0;
+    display: inline-block;
+    margin-top: 112px;
+    margin-left: -12px;
+}
+.part5_container .p5_bar_s {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #fff;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+}
+.part5_container .p5_bar_l_s1 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #fff;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 270px;
+    width: 30px;
+    left: -43px;
+}
+.part5_container .p5_bar_l_s2 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #fff;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 250px;
+    width: 30px;
+    left: -40px;
+}
+.part5_container .p5_bar_l_s3 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #fff;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 230px;
+    width: 28px;
+    left: -36px;
+}
+.part5_container .p5_bar_l_s4 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #fff;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 210px;
+    width: 27px;
+    left: -33px;
+}
+.part5_container .p5_bar_l_s5 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #fff;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 190px;
+    width: 27px;
+    left: -30px;
+}
+.part5_container .p5_bar_l_s6 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #fff;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 170px;
+    width: 27px;
+    left: -28.5px;
+}
+.part5_container .p5_bar_l_s7 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #fff;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 150px;
+    width: 27px;
+    left: -25px;
+}
+.part5_container .p5_bar_l_s8 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #fff;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 130px;
+    width: 27px;
+    left: -22px;
+}
+.part5_container .p5_bar_l_s9 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #fff;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 110px;
+    width: 27px;
+    left: -19px;
+}
+.part5_container .p5_bar_l_s10 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #fff;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 90px;
+    width: 27px;
+    left: -16px;
+}
+.part5_container .p5_bar_l_s11 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #fff;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 70px;
+    width: 33px;
+    left: -12.5px;
+}
+.part5_container .p5_bar_l_s12 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #fff;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 50px;
+    width: 27px;
+    left: -10px;
+}
+.part5_container .p5_bar_l_s13 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #fff;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 30px;
+    width: 21px;
+    left: -7.5px;
+}
+.part5_container .p5_bar_l_s14 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #fff;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 10px;
+    width: 15px;
+    left: -4.5px;
+}
+.part5_container .p5_bar_l_s15 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #fff;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: -28px;
+    width: 9px;
+    left: -0.5px;
+}
+.part5_container .p5_bar_r_s1 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #fff;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 270px;
+    width: 27px;
+    right: -44px;
+}
+.part5_container .p5_bar_r_s2 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #fff;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 250px;
+    width: 27px;
+    right: -41px;
+}
+.part5_container .p5_bar_r_s3 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #fff;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 230px;
+    width: 27px;
+    right: -38px;
+}
+.part5_container .p5_bar_r_s4 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #fff;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 210px;
+    width: 27px;
+    right: -35px;
+}
+.part5_container .p5_bar_r_s5 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #fff;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 190px;
+    width: 27px;
+    right: -33px;
+}
+.part5_container .p5_bar_r_s6 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #fff;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 170px;
+    width: 24px;
+    right: -27.5px;
+}
+.part5_container .p5_bar_r_s7 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #fff;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 150px;
+    width: 24px;
+    right: -26px;
+}
+.part5_container .p5_bar_r_s8 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #fff;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 130px;
+    width: 21px;
+    right: -22px;
+}
+.part5_container .p5_bar_r_s9 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #fff;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 110px;
+    width: 21px;
+    right: -18px;
+}
+.part5_container .p5_bar_r_s10 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #fff;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 90px;
+    width: 21px;
+    right: -15px;
+}
+.globe_container {
+    display: block;
+}
+.globe_container .top_globe {
+    width: 22px;
+    height: 22px;
+    border-radius: 30px;
+    border: 5px solid #000;
+    background: #fff;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-bottom: -1.5px;
+}
+.tower_container {
+    display: block;
+}
+.tower_container .tower {
+    width: 15px;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 43px solid #000;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-bottom: -15px;
+}
+.super_circle_container {
+    display: block;
+}
+.super_circle_container .super_circle {
+    width: 5px;
+    height: 5px;
+    border-radius: 7px;
+    background: #000;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-bottom: -4px;
+    -webkit-animation: blink 1s linear infinite;
+    -moz-animation: blink 1s linear infinite;
+    animation: blink 1s linear infinite;
+}
+@keyframes blink {
+    0% {
+        background: #fff;
+   }
+    20% {
+        background: #99e0eb;
+   }
+    40% {
+        background: #f6b97b;
+   }
+    60% {
+        background: #ff9;
+   }
+    80% {
+        background: #c8ffbe;
+   }
+    100% {
+        background: #fff;
+   }
+}
+@-webkit-keyframes blink {
+    0% {
+        background: #fff;
+   }
+    20% {
+        background: #99e0eb;
+   }
+    40% {
+        background: #f6b97b;
+   }
+    60% {
+        background: #ff9;
+   }
+    80% {
+        background: #c8ffbe;
+   }
+    100% {
+        background: #fff;
+   }
+}
+.part1 {
+    width: 350px;
+    height: 0;
+    border-left: 65px solid transparent;
+    border-right: 65px solid transparent;
+    border-bottom: 115px solid #000;
+    display: block;
+    text-align: center;
+    position: relative;
+}
+.part1 .circle {
+    width: 215px;
+    height: 220px;
+    border-radius: 160px;
+    background-color: #FFF;
+    display: inline-block;
+    margin-top: 25px;
+}
+.part1 .style_bar {
+    height: 8px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #FFF;
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+}
+.part1 .p1_bar_l_s1 {
+    height: 8px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #FFF;
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 102px;
+    left: -58px;
+    width: 64px;
+}
+.part1 .p1_bar_l_s2 {
+    height: 8px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #FFF;
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 82px;
+    left: -46px;
+    width: 57px;
+}
+.part1 .p1_bar_l_s3 {
+    height: 8px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #FFF;
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 62px;
+    left: -34px;
+    width: 56px;
+}
+.part1 .p1_bar_l_s4 {
+    height: 8px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #FFF;
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 42px;
+    left: -21px;
+    width: 56px;
+}
+.part1 .p1_bar_l_s5 {
+    height: 8px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #FFF;
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 22px;
+    left: -9px;
+    width: 56px;
+}
+.part1 .p1_bar_l_s6 {
+    height: 8px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #FFF;
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 5px;
+    left: 0px;
+    width: 219px;
+}
+.part1 .p1_bar_r_s1 {
+    height: 8px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #FFF;
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 102px;
+    right: -58px;
+    width: 61px;
+}
+.part1 .p1_bar_r_s2 {
+    height: 8px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #FFF;
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 82px;
+    right: -46px;
+    width: 57px;
+}
+.part1 .p1_bar_r_s3 {
+    height: 8px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #FFF;
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 62px;
+    right: -34px;
+    width: 56px;
+}
+.part1 .p1_bar_r_s4 {
+    height: 8px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #FFF;
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 42px;
+    right: -21px;
+    width: 56px;
+}
+.part1 .p1_bar_r_s5 {
+    height: 8px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #FFF;
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 22px;
+    right: -8px;
+    width: 56px;
+}
+.base1 {
+    width: 84px;
+    height: 10px;
+    background: #000;
+    position: absolute;
+    top: 116px;
+    left: -73px;
+}
+.base2 {
+    width: 84px;
+    height: 10px;
+    background: #000;
+    position: absolute;
+    top: 116px;
+    right: -73px;
+}
+.part2_container {
+    display: block;
+}
+.part2_container .part2 {
+    width: 220px;
+    height: 23px;
+    background: #000;
+    border: 1px solid #FFF;
+    display: inline-block;
+    vertical-align: bottom;
+    position: relative;
+}
+.part2_container .p2_bar_s {
+    height: 8px;
+    bottom: 0;
+    border-style: dashed;
+    position: absolute;
+    border-color: #000;
+    background: #FFF;
+    transform: scaleY(1);
+    top: 6px;
+    width: 216px;
+    left: 0px;
+}
+.part3_container {
+    display: block;
+}
+.part3_container .part3 {
+    width: 205px;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #000;
+    display: inline-block;
+    vertical-align: bottom;
+    position: relative;
+}
+.part3_container .part3 .p3_s1 {
+    width: 100px;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    border-bottom: 60px solid #FFF;
+    display: inline-block;
+    margin-top: 20px;
+}
+.part3_container .p3_bar_s {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #FFF;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+}
+.part3_container .p3_bar_l_s1 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #FFF;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 73px;
+    width: 39px;
+    left: -37px;
+}
+.part3_container .p3_bar_l_s2 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #FFF;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 53px;
+    width: 39px;
+    left: -28px;
+}
+.part3_container .p3_bar_l_s3 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #FFF;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 33px;
+    width: 39px;
+    left: -19px;
+}
+.part3_container .p3_bar_l_s4 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #FFF;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 7px;
+    width: 112px;
+    left: -4px;
+}
+.part3_container .p3_bar_l_s5 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #FFF;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 87px;
+    width: 112px;
+    left: -4px;
+}
+.part3_container .p3_bar_r_s1 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #FFF;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 73px;
+    width: 39px;
+    right: -37px;
+}
+.part3_container .p3_bar_r_s2 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #FFF;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 53px;
+    width: 39px;
+    right: -28px;
+}
+.part3_container .p3_bar_r_s3 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #FFF;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 33px;
+    width: 39px;
+    right: -19px;
+}
+.part4_container {
+    display: block;
+}
+.part4_container .part4 {
+    width: 105px;
+    height: 20px;
+    background: #000;
+    border: 1px solid #FFF;
+    display: inline-block;
+    vertical-align: bottom;
+    position: relative;
+}
+.part4_container .p4_bar_s {
+    height: 8px;
+    bottom: 0;
+    border-style: dashed;
+    position: absolute;
+    border-color: #000;
+    background: #FFF;
+    transform: scaleY(1);
+    top: 4px;
+    width: 101px;
+    left: 0px;
+}
+.part5_container {
+    display: block;
+}
+.part5_container .part5 {
+    width: 98px;
+    height: 0;
+    border-left: 45px solid transparent;
+    border-right: 45px solid transparent;
+    border-bottom: 278px solid #000;
+    display: inline-block;
+    vertical-align: bottom;
+    position: relative;
+}
+.part5_container .part5 .p5_s1 {
+    width: 35px;
+    border-left: 18px solid transparent;
+    border-right: 18px solid transparent;
+    border-bottom: 165px solid #FFF;
+    height: 0;
+    display: inline-block;
+    margin-top: 112px;
+    margin-left: -12px;
+}
+.part5_container .p5_bar_s {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #FFF;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+}
+.part5_container .p5_bar_l_s1 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #FFF;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 270px;
+    width: 30px;
+    left: -43px;
+}
+.part5_container .p5_bar_l_s2 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #FFF;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 250px;
+    width: 30px;
+    left: -40px;
+}
+.part5_container .p5_bar_l_s3 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #FFF;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 230px;
+    width: 28px;
+    left: -36px;
+}
+.part5_container .p5_bar_l_s4 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #FFF;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 210px;
+    width: 27px;
+    left: -33px;
+}
+.part5_container .p5_bar_l_s5 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #FFF;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 190px;
+    width: 27px;
+    left: -30px;
+}
+.part5_container .p5_bar_l_s6 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #FFF;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 170px;
+    width: 27px;
+    left: -28.5px;
+}
+.part5_container .p5_bar_l_s7 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #FFF;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 150px;
+    width: 27px;
+    left: -25px;
+}
+.part5_container .p5_bar_l_s8 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #FFF;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 130px;
+    width: 27px;
+    left: -22px;
+}
+.part5_container .p5_bar_l_s9 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #FFF;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 110px;
+    width: 27px;
+    left: -19px;
+}
+.part5_container .p5_bar_l_s10 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #FFF;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 90px;
+    width: 27px;
+    left: -16px;
+}
+.part5_container .p5_bar_l_s11 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #FFF;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 70px;
+    width: 33px;
+    left: -12.5px;
+}
+.part5_container .p5_bar_l_s12 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #FFF;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 50px;
+    width: 27px;
+    left: -10px;
+}
+.part5_container .p5_bar_l_s13 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #FFF;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 30px;
+    width: 21px;
+    left: -7.5px;
+}
+.part5_container .p5_bar_l_s14 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #FFF;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 10px;
+    width: 15px;
+    left: -4.5px;
+}
+.part5_container .p5_bar_l_s15 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #FFF;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: -28px;
+    width: 9px;
+    left: -0.5px;
+}
+.part5_container .p5_bar_r_s1 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #FFF;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 270px;
+    width: 27px;
+    right: -44px;
+}
+.part5_container .p5_bar_r_s2 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #FFF;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 250px;
+    width: 27px;
+    right: -41px;
+}
+.part5_container .p5_bar_r_s3 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #FFF;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 230px;
+    width: 27px;
+    right: -38px;
+}
+.part5_container .p5_bar_r_s4 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #FFF;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 210px;
+    width: 27px;
+    right: -35px;
+}
+.part5_container .p5_bar_r_s5 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #FFF;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 190px;
+    width: 27px;
+    right: -33px;
+}
+.part5_container .p5_bar_r_s6 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #FFF;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 170px;
+    width: 24px;
+    right: -27.5px;
+}
+.part5_container .p5_bar_r_s7 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #FFF;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 150px;
+    width: 24px;
+    right: -26px;
+}
+.part5_container .p5_bar_r_s8 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #FFF;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 130px;
+    width: 21px;
+    right: -22px;
+}
+.part5_container .p5_bar_r_s9 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #FFF;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 110px;
+    width: 21px;
+    right: -18px;
+}
+.part5_container .p5_bar_r_s10 {
+    height: 7px;
+    bottom: 0;
+    border-style: dotted;
+    position: absolute;
+    border-color: #000;
+    background: #FFF;
+    transform: scaleY(1);
+    -webkit-animation: blink 25s 0.5s ease-in-out 3;
+    -moz-animation: blink 25s 0.5s ease-in-out 3;
+    animation: blink 25s 0.5s ease-in-out 3;
+    top: 90px;
+    width: 21px;
+    right: -15px;
+}
+.globe_container {
+    display: block;
+}
+.globe_container .top_globe {
+    width: 22px;
+    height: 22px;
+    border-radius: 30px;
+    border: 5px solid #000;
+    background: #FFF;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-bottom: -1.5px;
+}
+.tower_container {
+    display: block;
+}
+.tower_container .tower {
+    width: 15px;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 43px solid #000;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-bottom: -15px;
+}
+.super_circle_container {
+    display: block;
+}
+.super_circle_container .super_circle {
+    width: 5px;
+    height: 5px;
+    border-radius: 7px;
+    background: #000;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-bottom: -4px;
+    -webkit-animation: blink 1s linear infinite;
+    -moz-animation: blink 1s linear infinite;
+    animation: blink 1s linear infinite;
+}
+@keyframes blink {
+    0% {
+        background: #FFF;
+   }
+    20% {
+        background: #99e0eb;
+   }
+    40% {
+        background: #f6b97b;
+   }
+    60% {
+        background: #ff9;
+   }
+    80% {
+        background: #c8ffbe;
+   }
+    100% {
+        background: #FFF;
+   }
+}
+@-webkit-keyframes blink {
+    0% {
+        background: #FFF;
+   }
+    20% {
+        background: #99e0eb;
+   }
+    40% {
+        background: #f6b97b;
+   }
+    60% {
+        background: #ff9;
+   }
+    80% {
+        background: #c8ffbe;
+   }
+    100% {
+        background: #FFF;
+   } }
