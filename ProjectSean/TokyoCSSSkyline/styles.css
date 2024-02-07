@@ -466,3 +466,8 @@
 .side-gate-two:after {
     left: 0;
 }
+.upper p {
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
