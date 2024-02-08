@@ -11,6 +11,8 @@ middle section needs to have a linear gradient
 
 FOR REFERENCE:
 https://upload.wikimedia.org/wikipedia/commons/5/58/Tokyo_Tower_2023.jpg
+FOR CREATING WINDOWS:
+https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/repeating-linear-gradient
 */
 body {
     display: flex;
@@ -188,10 +190,6 @@ body {
     bottom: 0;
     transform: translateY(100%);
     border-radius: 10px;
-}
-
-.top:after {
-    bottom: 20px;
 }
 
 .top_side {
