@@ -261,8 +261,8 @@ body {
 .peak_top {
     width: 15px;
     height: 80px;
-    background: var(--color);
-    border: 5px solid var(--color_dark);
+    background: var(--tower_color2);
+    border: 5px solid var(--tower_color2);
     border-radius: 10px;
     position: relative;
     top: 10px;
