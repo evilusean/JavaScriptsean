@@ -1,9 +1,17 @@
 * {
     box-sizing: border-box;
 }
-:root {
-    --tower-background-color1: #aa80ff; 
-}
+/* TO DO : 
+Fix bottom half to all red
+Create box with windows in middle
+extend top spherical part by 30-40%
+extend top by 50% and apply linear gradient
+add another slim top section all red half that size
+middle section needs to have a linear gradient
+
+FOR REFERENCE:
+https://upload.wikimedia.org/wikipedia/commons/5/58/Tokyo_Tower_2023.jpg
+*/
 body {
     display: flex;
     justify-content: center;
