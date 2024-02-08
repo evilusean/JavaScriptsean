@@ -269,6 +269,8 @@ body {
 }
 
 .rod {
+    top: 20px;
+    position: relative;
     width: 5px;
     height: 80px;
     background: var(--tower_color2)
