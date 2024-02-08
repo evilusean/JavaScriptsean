@@ -1,7 +1,9 @@
 * {
     box-sizing: border-box;
 }
-
+:root {
+    --tower-background-color1: #aa80ff; 
+}
 body {
     display: flex;
     justify-content: center;
@@ -11,43 +13,6 @@ body {
     height: 100vh;
     overflow: auto;
     background: #68e3ff;
-}
-
-.canvas {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-}
-
-.ground {
-    background: #d2d2d2;
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
-    column-gap: 240px;
-    z-index: 1;
-}
-
-.ground:before, .ground:after {
-    background: green;
-    flex: 1;
-    content: "";
-    border-radius: 0 0 100px 0 / 0 0 100px 0;
-}
-
-.ground:after {
-    transform: scale(-1, 1);
-}
-
-.non_ground {
-    flex: 4;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    column-gap: 20px;
-    z-index: 2;
 }
 
 .tower {
@@ -286,82 +251,4 @@ body {
     border-radius: 10px;
     position: relative;
     top: 10px;
-}
-
-
-.tree {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /*align-self: flex-end;*/
-    transform: scale(1.2);
-}
-
-.tree:before, .tree:after {
-    content: "";
-}
-
-.tree_leaves {
-    width: 120px;
-    aspect-ratio: 1/1;
-    background: #30a430;
-    border-radius: 20px;
-}
-
-.tree_stem {
-    width: 20px;
-    height: 50px;
-    background: #ec9683;
-}
-
-.tree:nth-child(2n) {
-    /*transform-origin: 50% 100%;*/
-    transform: scale(1.55);
-    z-index: 1;
-}
-
-.tree:nth-child(2n) .tree_leaves {
-    background: green;
-}
-
-
-.tree:first-of-type, .tree:last-of-type {
-    z-index: 2;
-    transform: scale(2);
-}
-
-.cloud {
-    background: white;
-    width: 200px;
-    height: 75px;
-    position: absolute;
-    border-radius: 20px;
-    bottom: 800px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    left: 50%;
-    transform: translateX(-50%) translateX(-300px);
-}
-
-.cloud:before {
-    width: 120px;
-    height: 120px;
-    border-radius: 20px;
-    content: "";
-    /*transform: translate(-10%, 25%);*/
-}
-
-.cloud:before {
-    background: white;
-}
-
-.c2 {
-    bottom: 450px;
-    transform: translateX(-50%) translateX(-500px);
-}
-
-.c3 {
-    bottom: 600px;
-    transform: translateX(-50%) translateX(400px);
 }
