@@ -30,9 +30,10 @@ body {
     align-items: center;
     /*border: 1px solid black;*/
     --color: #ebf5ff;
+    --color_dark: #ffffff;
     --tower_color2: #f90707;
     --tower_color1: #ebf5ff;
-    --color_dark: #ffffff;
+    --window-color1: #bb99ff;
     position: absolute;
     bottom: auto;
     right: 0;
