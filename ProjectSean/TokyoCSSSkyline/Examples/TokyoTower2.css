@@ -167,8 +167,14 @@ body {
     --offset1: 5px;
     --offset2: 16px;
     --skew_offset: 24deg;
-    background: repeating-linear-gradient(45deg, var(--color) 0px, var(--color) var(--offset1), transparent var(--offset1), transparent var(--offset2)),
+    background: repeating-linear-gradient(
+        -90deg,
+        white 0 20px,
+        black 20px 40px
+      );
+    /* background: repeating-linear-gradient(45deg, var(--color) 0px, var(--color) var(--offset1), transparent var(--offset1), transparent var(--offset2)),
     repeating-linear-gradient(-45deg, var(--color) 0px, var(--color) var(--offset1), transparent var(--offset1), transparent var(--offset2));
+    */
     background-position: 0, 0, 0;
 }
 
