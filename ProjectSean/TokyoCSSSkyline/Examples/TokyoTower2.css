@@ -169,8 +169,8 @@ body {
     --skew_offset: 24deg;
     background: repeating-linear-gradient(
         -90deg,
-        white 0 5px,
-        black 7.5px 10px
+        var(--tower_color1) 0 5px,
+        var(--window-color5) 7.5px 10px
       );
     /* background: repeating-linear-gradient(45deg, var(--color) 0px, var(--color) var(--offset1), transparent var(--offset1), transparent var(--offset2)),
     repeating-linear-gradient(-45deg, var(--color) 0px, var(--color) var(--offset1), transparent var(--offset1), transparent var(--offset2));
