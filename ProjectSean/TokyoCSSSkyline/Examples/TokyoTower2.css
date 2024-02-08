@@ -267,3 +267,9 @@ body {
     position: relative;
     top: 10px;
 }
+
+.rod {
+    width: 5px;
+    height: 80px;
+    background: var(--tower_color2)
+}
