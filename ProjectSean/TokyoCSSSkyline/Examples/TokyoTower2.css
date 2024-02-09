@@ -261,9 +261,13 @@ body {
 .peak_top {
     width: 15px;
     height: 80px;
-    background: var(--tower_color2);
-    border: 5px solid var(--tower_color2);
-    border-radius: 10px;
+    background: repeating-linear-gradient(
+        var(--tower_color2) 0 20px,
+        var(--tower_color1) 21px 55px,
+        var(--tower_color2) 56px 80px
+      );
+    /* border: 5px solid var(--tower_color2); */
+    /* border-radius: 10px; */
     position: relative;
     top: 10px;
 }
