@@ -261,7 +261,7 @@ body {
         var(--window-color5) 15px 16px,
         var(--tower_color2) 17px 20px,
         var(--window-color5) 21px 23px,
-        var(--tower_color1) 24px 27px,
+        var(--tower_color2) 24px 27px,
         var(--window-color5) 28px 29px,
         var(--tower_color1) 30px 33px,
         var(--window-color5) 34px 35px,
@@ -273,7 +273,9 @@ body {
         var(--window-color5) 52px 53px,
         var(--tower_color1) 54px 57px,
         var(--window-color5) 58px 59px,
-        var(--tower_color1) 60px 100px
+        var(--tower_color1) 60px 63px,
+        var(--window-color5) 64px 65px,
+        var(--tower_color1) 66px 100px
       );
       border: 5px solid var repeating-linear-gradient(
         90deg,
