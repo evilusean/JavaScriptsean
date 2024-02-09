@@ -250,12 +250,13 @@ body {
 }
 
 .peak_middle {
-    width: 70px;
-    aspect-ratio: 2/1.7;
+    width: 100px;
+    aspect-ratio: 2/1.1;
     border-radius: 40px;
-    background: var(--color);
-    border: 5px solid var(--color_dark);
+    background: var(--tower_color2);
+    border: 5px solid var(--tower_color2_dark);
     position: relative;
+    transform: rotate(90deg);
     top: 5px;
     z-index: 2;
 }
@@ -268,14 +269,20 @@ body {
         var(--tower_color1) 21px 55px,
         var(--tower_color2) 56px 80px
       );
+      border: 5px solid var repeating-linear-gradient(
+        var(--tower_color2_dark) 0 20px,
+        var(--tower_color1_darl) 21px 55px,
+        var(--tower_color2_dark) 56px 80px
+      );
+    border-radius: 10px;
     /* border: 5px solid var(--tower_color2); */
     /* border-radius: 10px; */
     position: relative;
-    top: 10px;
+    top: -10px;
 }
 
 .rod {
-    top: 20px;
+    top: -9px;
     position: relative;
     width: 5px;
     height: 60px;
