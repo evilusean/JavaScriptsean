@@ -33,8 +33,10 @@ body {
     /*border: 1px solid black;*/
     --color: #ebf5ff;
     --color_dark: #ffffff;
-    --tower_color2: #f90707;
     --tower_color1: #ebf5ff;
+    --tower_color1_dark: #ffffff;
+    --tower_color2: #f90707;
+    --tower_color2_dark: #860000;
     --window-color5: #4a4b4b;
     position: absolute;
     bottom: auto;
