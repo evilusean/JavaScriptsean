@@ -43,6 +43,8 @@ body {
     --tower_color2: #f90707;
     --tower_color2_dark: #860000;
     --window-color5: #4a4b4b;
+    --background1: #bbeeff;
+    --background2: #223;
     position: absolute;
     bottom: auto;
     right: 0;
