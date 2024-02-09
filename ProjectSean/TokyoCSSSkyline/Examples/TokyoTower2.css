@@ -44,7 +44,7 @@ body {
     --tower_color2_dark: #860000;
     --window-color5: #4a4b4b;
     --background1: #bbeeff;
-    --background2: #223;
+    --background: #223;
     position: absolute;
     bottom: auto;
     right: 0;
@@ -68,16 +68,16 @@ body {
 .base_side {
     width: 60px;
     height: 140px;
-    border: 7px solid var(--color_dark);
+    border: 7px solid var(--tower_color2_dark);
     border-top: 0;
     --offset1: 5px;
     --offset2: 32px;
     --skew_offset: 24deg;
     /*background: var(--color);*/
-    background: repeating-linear-gradient(45deg, var(--color) 0px, var(--color) var(--offset1), transparent var(--offset1), transparent var(--offset2)),
-    repeating-linear-gradient(-45deg, var(--color) 0px, var(--color) var(--offset1), transparent var(--offset1), transparent var(--offset2)),
-    linear-gradient(90deg, transparent 44%, var(--color) 44%, var(--color) 56%, transparent 56%),
-    repeating-linear-gradient(180deg, var(--color) 0px, var(--color) calc(var(--offset1) / 1.41421356237), transparent calc(var(--offset1) / 1.41421356237), transparent calc(var(--offset2) / 1.41421356237));
+    background: repeating-linear-gradient(45deg, var(--tower_color2) 0px, var(--tower_color2) var(--offset1), transparent var(--offset1), transparent var(--offset2)),
+    repeating-linear-gradient(-45deg, var(--tower_color2) 0px, var(--tower_color2) var(--offset1), transparent var(--offset1), transparent var(--offset2)),
+    linear-gradient(90deg, transparent 44%, var(--tower_color2) 44%, var(--tower_color2) 56%, transparent 56%),
+    repeating-linear-gradient(180deg, var(--tower_color2) 0px, var(--tower_color2) calc(var(--offset1) / 1.41421356237), transparent calc(var(--offset1) / 1.41421356237), transparent calc(var(--offset2) / 1.41421356237));
     background-position: 0, 0, 0, 0px -6px;
     transform: skewX(calc(0deg - var(--skew_offset)));
     /*filter: drop-shadow(1px 1px 5px black);*/
