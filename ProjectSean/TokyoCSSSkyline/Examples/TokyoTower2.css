@@ -279,8 +279,27 @@ body {
       );
       border: 5px solid var repeating-linear-gradient(
         90deg,
-        var(--tower_color2_dark) 0 20px,
-        var(--tower_color1_dark) 21px 100px
+        var(--tower_color2_dark) 0 9px,
+        var(--window-color5) 10px 11px,
+        var(--tower_color2_dark) 12px 15px,
+        var(--window-color5) 15px 16px,
+        var(--tower_color2_dark) 17px 20px,
+        var(--window-color5) 21px 23px,
+        var(--tower_color2_dark) 24px 27px,
+        var(--window-color5) 28px 29px,
+        var(--tower_color1_dark) 30px 33px,
+        var(--window-color5) 34px 35px,
+        var(--tower_color1_dark) 36px 39px,
+        var(--window-color5) 40px 41px,
+        var(--tower_color1_dark) 42px 45px,
+        var(--window-color5) 46px 47px,
+        var(--tower_color1_dark) 48px 51px,
+        var(--window-color5) 52px 53px,
+        var(--tower_color1_dark) 54px 57px,
+        var(--window-color5) 58px 59px,
+        var(--tower_color1)_dark 60px 63px,
+        var(--window-color5) 64px 65px,
+        var(--tower_color1_dark) 66px 100px
       );
     /* background: var(--tower_color2);
     border: 5px solid var(--tower_color2_dark); */
