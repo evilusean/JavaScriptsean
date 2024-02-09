@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
 }
+
 /* TO DO : 
 Fix bottom half to all red
 Create box with windows in middle
@@ -13,7 +14,11 @@ FOR REFERENCE:
 https://upload.wikimedia.org/wikipedia/commons/5/58/Tokyo_Tower_2023.jpg
 FOR CREATING WINDOWS:
 https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/repeating-linear-gradient
+Tried making middle section a linear gradient to be like the real model, can't figure out how to turn 
+    the gradient into a variable which can be used for it
+repeating-linear-gradient(to right, var(--tower_color2) 0 33%, var(--tower_color1) 33% 33%, var(--tower_color2) 66% 33%)
 */
+
 body {
     display: flex;
     justify-content: center;
@@ -43,6 +48,7 @@ body {
     right: 0;
     transform: scale(0.5);
 }
+
 
 .base, .middle, .top {
     display: flex;
