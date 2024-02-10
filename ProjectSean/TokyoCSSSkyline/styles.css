@@ -717,8 +717,8 @@
 
 .peak_lower {
     width: 46px;
-    background: var(--tower_color1);
-    border: 5px solid var(--tower_color1_dark);
+    background: var(--tower_color2);
+    border: 5px solid var(--tower_color2_dark);
     border-bottom: 0;
     border-top: 0;
     height: 25px;
