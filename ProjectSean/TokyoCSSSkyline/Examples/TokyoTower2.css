@@ -93,15 +93,15 @@ body {
     /*background: var(--color);*/
     transform-origin: 50% 100%;
     transform: perspective(100px) rotateX(15deg);
-    border: 6px solid var(--color_dark);
+    border: 6px solid var(--tower_color2_dark);
     top: -2px;
     --offset1: 7px;
     --offset2: 29px;
     --skew_offset: 24deg;
-    background: repeating-linear-gradient(45deg, var(--color) 0px, var(--color) var(--offset1), transparent var(--offset1), transparent var(--offset2)),
-    repeating-linear-gradient(-45deg, var(--color) 0px, var(--color) var(--offset1), transparent var(--offset1), transparent var(--offset2)),
-    repeating-linear-gradient(90deg, var(--color) 0px, var(--color) calc(var(--offset1) / 1.41421356237), transparent calc(var(--offset1) / 1.41421356237), transparent calc(var(--offset2) / 1.41421356237)),
-    repeating-linear-gradient(180deg, var(--color) 0px, var(--color) calc(var(--offset1) / 1.41421356237), transparent calc(var(--offset1) / 1.41421356237), transparent calc(var(--offset2) / 1.41421356237));
+    background: repeating-linear-gradient(45deg, var(--tower_color2) 0px, var(--tower_color2) var(--offset1), transparent var(--offset1), transparent var(--offset2)),
+    repeating-linear-gradient(-45deg, var(--tower_color2) 0px, var(--tower_color2) var(--offset1), transparent var(--offset1), transparent var(--offset2)),
+    repeating-linear-gradient(90deg, var(--tower_color2) 0px, var(--tower_color2) calc(var(--offset1) / 1.41421356237), transparent calc(var(--offset1) / 1.41421356237), transparent calc(var(--offset2) / 1.41421356237)),
+    repeating-linear-gradient(180deg, var(--tower_color2) 0px, var(--tower_color2) calc(var(--offset1) / 1.41421356237), transparent calc(var(--offset1) / 1.41421356237), transparent calc(var(--offset2) / 1.41421356237));
     background-position: 0, 0, -12px -4px, 0px 0px;
 
 }
@@ -113,7 +113,7 @@ body {
     width: 260px;
     aspect-ratio: 1/1;
     /*border: 15px solid #CFA678;*/
-    background: radial-gradient(transparent 62%, var(--color_dark) 62%, var(--color_dark) 64%, var(--color) 64%, var(--color) 69%, var(--color_dark) 69%);
+    background: radial-gradient(transparent 62%, var(--tower_color2_dark) 62%, var(--tower_color2_dark) 64%, var(--tower_color2) 64%, var(--tower_color2) 69%, var(--tower_color2_dark) 69%);
     transform: translateY(50%);
     clip-path: polygon(25% 0%, 75% 0%, 92% 40%, 8% 40%);
     border-radius: 50%;
