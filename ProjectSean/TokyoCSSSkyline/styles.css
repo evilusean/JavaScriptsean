@@ -7,7 +7,11 @@
     --window-color2: #8cd9b3;
     --window-color3: #d98cb3;
     --window-color4: #8cb3d9;
-    
+    --window-color5: #4a4b4b;
+    --tower_color1: #ebf5ff;
+    --tower_color1_dark: #ffffff;
+    --tower_color2: #f90707;
+    --tower_color2_dark: #9c0c0c;
     --background: #223;
   }
   
@@ -487,11 +491,6 @@
     flex-direction: column-reverse;
     align-items: center;
     /*border: 1px solid black;*/
-    --tower_color1: #ebf5ff;
-    --tower_color1_dark: #ffffff;
-    --tower_color2: #f90707;
-    --tower_color2_dark: #9c0c0c;
-    --window-color5: #4a4b4b;
     position: absolute;
     bottom: auto;
     right: 0;
