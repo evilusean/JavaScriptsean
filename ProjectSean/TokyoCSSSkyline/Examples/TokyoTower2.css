@@ -132,8 +132,8 @@ body {
     position: absolute;
     width: 210px;
     height: 5px;
-    background: var(--color);
-    border: 5px solid var(--color_dark);
+    background: var(--tower_color2);
+    border: 5px solid var(--tower_color2_dark);
     z-index: -1;
     bottom: 0;
     transform: translateY(100%);
@@ -151,12 +151,12 @@ body {
     --offset1: 5px;
     --offset2: 33px;
     --skew_offset: 24deg;
-    background: repeating-linear-gradient(45deg, var(--color) 0px, var(--color) var(--offset1), transparent var(--offset1), transparent var(--offset2)),
-    repeating-linear-gradient(-45deg, var(--color) 0px, var(--color) var(--offset1), transparent var(--offset1), transparent var(--offset2)),
-    repeating-linear-gradient(180deg, var(--color) 0px, var(--color) calc(var(--offset1) / 1.41421356237), transparent calc(var(--offset1) / 1.41421356237), transparent calc(var(--offset2) / 1.41421356237)),
-    linear-gradient(90deg, transparent 42%, var(--color) 42%, var(--color) 58%, transparent 58%);
+    background: repeating-linear-gradient(45deg, var(--tower_color2) 0px, var(--tower_color2) var(--offset1), transparent var(--offset1), transparent var(--offset2)),
+    repeating-linear-gradient(-45deg, var(--tower_color2) 0px, var(--tower_color2) var(--offset1), transparent var(--offset1), transparent var(--offset2)),
+    repeating-linear-gradient(180deg, var(--tower_color2) 0px, var(--tower_color2) calc(var(--offset1) / 1.41421356237), transparent calc(var(--offset1) / 1.41421356237), transparent calc(var(--offset2) / 1.41421356237)),
+    linear-gradient(90deg, transparent 42%, var(--tower_color2) 42%, var(--tower_color2) 58%, transparent 58%);
     background-position: 0, 0, 0 -3px;
-    border: 6px solid var(--color_dark);
+    border: 6px solid var(--tower_color2_dark);
     border-bottom: 0;
     border-top: 0;
     transform: skewX(-12deg);
