@@ -12,7 +12,7 @@
     --tower_color1_dark: #ffffff;
     --tower_color2: #f90707;
     --tower_color2_dark: #9c0c0c;
-    --background: #223;
+    --background: #bbeeff;
   }
   
   * {
@@ -321,7 +321,7 @@
       --building-color2: #000;
       --building-color3: #000;
       --building-color4: #000;
-      --background: #bbeeff;
+      --background: #223;
     }
   
     .sky {
@@ -513,12 +513,6 @@
     right: 0;
     transform: scale(0.6); 
     z-index: -8;
-}
-.tower > div {
-    z-index:inherit;
-}
-.tower > div > div {
-    z-index: inherit; 
 }
 
 .base, .middle, .top {
