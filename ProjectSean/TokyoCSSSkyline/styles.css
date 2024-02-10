@@ -36,6 +36,7 @@
     justify-content: space-evenly;
     position: absolute;
     top: 0;
+    z-index: 2;
   }
   
   .building-wrap {
@@ -51,12 +52,14 @@
   }
   
   .sky {
+    z-index: -10;
     background: radial-gradient(
         closest-corner circle at 15% 15%,
         #ffcf33,
         #ffcf33 20%,
         #ffff66 21%,
         #bbeeff 100%
+        
       );
   }
   
@@ -316,6 +319,7 @@
     }
   
     .sky {
+        z-index: -10;
       background: radial-gradient(
           closest-corner circle at 30% 15%,
           #fb0303,
@@ -328,6 +332,12 @@
 /* Change @media query to change when sun emoji is clicked  
 
 /* TORI GATE : */
+.tori-shrine {
+    z-index: 5;
+}
+.torishrine > div{
+    z-index: 6
+}
 .upper p {
     font-size: 10px;
     text-align: center;
@@ -340,6 +350,7 @@
     position: absolute;
     bottom: 0;
     left: 0;
+    z-index: 5;
 }
 .gate {
     position: relative;
@@ -492,10 +503,13 @@
     align-items: center;
     /*border: 1px solid black;*/
     position: absolute;
-    bottom: auto;
+    bottom: 0;
     right: 0;
-    transform: scale(0.5);
-    z-index: 0;
+    transform: scale(0.6); 
+    z-index: -4;
+}
+.tower > div {
+    z-index: -3;
 }
 
 
@@ -658,7 +672,7 @@
 .top_side {
     width: 120px;
     height: 280px;
-    background: #68e3ff;
+    background: var(--background);
     border-bottom: 0;
     border-top: 0;
     transform: skewX(calc(0deg - var(--skew_offset)));
