@@ -1,0 +1,51 @@
+https://www.youtube.com/watch?v=-3bVuFcteUo&ab_channel=TechWithTim
+
+-- Beginner --
+Variables: var, let, const
+Data Types: Strings, Numbers, Booleans, null, undefined.
+Operators: Arithmetic, Assignment, Comparison, Logical, 
+Conditionals
+Control Flow: if/else, switch, ternary operator.
+Basic Data Structures: Arrays, Objects, Mutability.
+Loops: for, while, do...while, iterating over arrays with forEach.
+Functions: Declaration, Invocation, Return, Parameters vs Arguments.
+Common Methods
+Sets, Maps
+Advanced Functions: Arrow functions, default parameters, rest parameters.
+Scope
+DOM Manipulation: Selecting and changing webpage elements, handling user input.
+Event Handling: addEventListener, handling clicks, form submissions.
+Basic Debugging: using browser dev tools, debugger.
+
+-- Intermediate --
+Error Handling: try...catch, throwing custom errors.
+Important operators: null coalescing, optional chaining, ternary operator
+Asynchronous JavaScript: Callbacks, Promises, async/await.
+APIs: Fetch API, working with JSON, making HTTP requests.
+Object-Oriented JavaScript: this, new, constructor functions, class syntax.
+Prototypal Inheritance: Prototype chain, creating prototypes, inheritance patterns.
+Module System: ES6 modules (import/export), CommonJS (require/module.exports).
+Tooling: npm, basic webpack, Babel.
+Functional Programming Basics: Pure functions, higher-order functions, closures, .map(), .filter(), .reduce().
+
+-- Advanced --
+Advanced Asynchronous Patterns: Microtasks, Macrotasks, Event Loop, Web Workers.
+Advanced DOM & Web APIs: IntersectionObserver, WebSockets, localStorage/sessionStorage.
+State Management: Understanding State, Introduction to State Management Libraries (e.g., Redux).
+Advanced Object-Oriented JavaScript: Factory Functions, Mixins, Composition.
+Functional Programming: Immutability, Recursion, Function Composition, Currying.
+Advanced Error Handling: Custom error types, error tracking.
+Performance Optimization: Lazy loading, Debouncing and Throttling, Memoization.
+Security Essentials: XSS, CSRF, CORS, Content Security Policy.
+Testing: Unit Testing, Integration Testing, E2E Testing, Frameworks (Jest, Mocha/Chai).
+Build Tools & Automation: Advanced webpack, Gulp, npm scripts.
+
+-- Expert/Master --
+Design Patterns: Module Pattern, Factory, Singleton, Observer, etc.
+Advanced State Management: State Machines, Redux Middleware
+Advanced Performance Optimization: Code Splitting, Tree Shaking, Web Assembly.
+Type Systems: TypeScript, Flow.
+Server-Side JavaScript: Node.js, Express, RESTful API design, GraphQL.
+Full-Stack Development: MERN Stack, Server-Side Rendering.
+Modern Frameworks: In-depth understanding of frameworks like React, Angular, Vue.
+Architecture & Scalability: Microservices, Load Balancing, Caching Strategies, CDN.
