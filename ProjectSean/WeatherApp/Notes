@@ -13,3 +13,8 @@ Next.js is a React framework for building full-stack web applications. You use R
 
 Under the hood, Next.js also abstracts and automatically configures tooling needed for React, like bundling, compiling, and more. This allows you to focus on building your application instead of spending time with configuration.
 
+
+'.env.local' after copying API key, create a new file in src directory, NEXT_PUBLIC_WEATHER_KEY = <API KEY> #replace <> with actual api key, after that you can use it globally whereever you want
+  in .env.local your API key will be stored privately, so that our API key is not exposed publicly
+https://openweathermap.org/api/geocoding-api
+https://openweathermap.org/api/one-call-3
