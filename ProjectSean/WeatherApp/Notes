@@ -18,3 +18,8 @@ Under the hood, Next.js also abstracts and automatically configures tooling need
   in .env.local your API key will be stored privately, so that our API key is not exposed publicly
 https://openweathermap.org/api/geocoding-api
 https://openweathermap.org/api/one-call-3
+// original api call only found the city, you need to change /data/2.5/forecast add a city, and country, add a limit, and API key in .env.local in the src / app directory
+// there is another that does lat/long we could also use
+// http://api.openweathermap.org/geo/1.0/direct?q={city name},{state code},{country code}&limit={limit}&appid={API key}
+http://api.openweathermap.org/data/2.5/forecast?q=Tokyo,JP&appid={process.env.NEXT_PUBLIC_API_KEY}&cnt=1
+// Above code cnt=56 means 56 hours of data with 3 hours of difference, cnt=1 is 1 hour, for our weatherapp css tokyo skyline project, we just need the weather as of that moment user checked
