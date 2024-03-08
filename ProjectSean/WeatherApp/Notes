@@ -103,3 +103,7 @@ export default function WeatherIcon(props: React.HTMLProps<HTMLDivElement> & {ic
 
 <WeatherIcon iconName={d.weather[0].icon} /> #just shows weather
 <WeatherIcon iconName={getDayOrNightIcon(d.weather[0].icon, d.dt_txt)} /> #will change icon based on time
+
+YOU CAN NOT DO NEXT JS API CALLS AND HOST ON GITHUB PAGES(Static pages only):
+https://github.com/vercel/next.js/issues/9366
+just saved myself days of work creating new UI for tokyo skyline, and being unable to host it for my portfolio, can still build, just can't showcase
