@@ -9,7 +9,9 @@ https://date-fns.org/
 https://www.npmjs.com/package/date-fns
 npm i date-fns
 
-
+Jotai(state manager for react-global state management solusean):
+https://jotai.org/
+npm i jotai #installs jotai  
 
 
 
