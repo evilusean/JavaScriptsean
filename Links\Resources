@@ -336,3 +336,18 @@ https://www.youtube.com/watch?v=6nz8GXjxiHg&ab_channel=freeCodeCamp.org
 
 Next JS AuthJS(OAUTH)MongoDB:
 https://www.youtube.com/watch?v=MNm1XhDjX1s&ab_channel=freeCodeCamp.org
+
+
+JS to know for React:==============================================================================================================================================================================================================
+Array Functions(.map, .sort, .filter, .reduce, .etc):
+https://dev.to/devsmitra/28-javascript-array-hacks-a-cheat-sheet-for-developer-5769
+Rest(...) and Spread(...) Operators:
+https://www.telerik.com/blogs/rest-spread-operators-explained-javascript#:~:text=A%20rest%20operator%20is%20a,during%20array%20and%20object%20destructuring.
+Rest(...) = A rest operator is a type of parameter that gets all of the remaining parameters of a function call via an Array. It enables us to handle a variety of inputs as parameters in a function. 
+Spread[...] = The spread operator divides an array or object into separate elements or properties. The spread operator is mostly used if you want to duplicate the content of an array or combine arrays/objects together
+Event Listeners ("click", "keydown", "onBlur", "onHover", "onChange", "onFocus", setTimeout(), setInterval()):
+https://www.w3schools.com/js/js_htmldom_eventlistener.asp
+CallBacks/Promises Vs Async/Await:
+https://www.w3schools.com/js/js_callback.asp
+https://www.w3schools.com/js/js_promise.asp
+https://www.w3schools.com/js/js_async.asp
