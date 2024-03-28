@@ -1,0 +1,54 @@
+Web Developer Roadmap(March 2024):
+https://www.youtube.com/watch?v=EzTxYQmU8OE&t=26s&ab_channel=ByteGrad
+  AI Copilots / Typescript + Zod / TailwindCSS / Next.JS AppRouter / 
+
+Fundamentals: 
+HTML + Semantic HTML
+CSS: 
+Box Model / FlexBix / Grid / Animations & Transitions / Responsiveness(Media Queries)
+JS: 
+Variables / Arrays / Objects / Functions(Arrows vs Traditional) / Fetch API / Asynchronous Code(Promises Vs Async/await) / DOM + Web Platform (Events/manipulation)
+
+FrontEnd:
+React(Vite) / Components / Props / Hooks (useState / useEffect / Custom Hooks ) State Management (Context API vs Zustand vs Redux) Styling(Tailwind CSS) Patterns and Best Practices(reusability/state in URL/etc)
+Typescript:
+Basic Types / Inference / Type vs Interface / Generics
+
+HTML + Semantic HTML<Semantic Tags = don't just use divs everywhere
+CSS = Box Model is very imporant (Margin + Border + Padding)
+FlexBox = What you use 99% of the time, when it comes to layouts
+Animations/Transitions = on hover effects
+Responsiveness = everything you build should look good regardless of screen size(media queries)
+JS: Variables (let vs const vs var)
+JS: Arrays = are lists/collections of items (methods .map(), .forEach(), .push() 
+JS: Objects = {} whenever you have something you want to represent in your code, you can use an object {} JSON, represent entities in code
+JS: Functions(Arrows vs Traditional) = () => {} , instead of writing function in your code, you can just write an arrow
+JS: Fetch API = fetch() built in fetch API which gives you a promise, typically you don't need to create your own promises, you only consume promises p.then()
+JS: Asynchronous Code(Promises Vs Async/await) = await p, typically async await functions are used over promises today
+JS: DOM + Web Platform (Events/manipulation) = Document Object Model / Local Storage / How URL's work / how to communicate with a server
+
+FrontEnd:
+React(Vite) = Vite is essentially a replacement of Create React App , 
+Components = Written in CapitalCase, essentialy just a function(export default function PetFormBtn({ actionType}: PetFormBtnProps) {return ()}, allows you to reuse your code instead of rewriting it, use props to make changes
+Props / Hooks (useState / useEffect / Custom Hooks = React has Hooks you UseState= if a piece of data you want to change over time, useEffect = if you want to go outside your react app, reach out to a sever or local storage
+  Custom Hooks = a utility function / Props = properties to use in other parts of your app or components
+  Sometimes it's better to not use state and just make it part of the URL
+State Management (Context API vs Zustand vs Redux) = State Management Solution / Context API = built in state mgmt solution / Zustand+Redux = other state mgmt solutions
+Styling(Tailwind CSS) = Great for styling
+Patterns and Best Practices(reusability/state in URL/etc) = components are reuseable, ?price=10000 #as part of URL would only show items with a price below 10,000$
+Routing = comes from a full stack framework like nextJS / reactquery / server components
+
+Typescript = Forces you to be much more precise with your types(strongly type JS), you don't need to learn it seperately, just enable it in your apps as you build
+Basic Types = string / boolean / number /null
+Inference = TS can detect pretty easily if something is a string a number or a boolean, you don't have to tell it
+Type vs Interface = look it up
+Generics = most commonly used when you create a custom hook
+
+leftoff @ 12:30=Took a break before backend section
+
+
+
+
+
+
+
