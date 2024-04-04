@@ -13,22 +13,41 @@ Jotai(state manager for react-global state management solusean):
 https://jotai.org/
 npm i jotai #installs jotai  
 
+Social Share Preview Will check how your website will be displayed when shared on various social media sites:
+https://socialsharepreview.com/
 
+BoxIcons Free Icons:
+https://boxicons.com/
+https://boxicons.com/usage
 
+Setting up TailwindCSS:
+https://tailwindcss.com/docs/installation
+https://tailwindcss.com/docs/editor-setup
+https://github.com/tailwindlabs/prettier-plugin-tailwindcss
 
+Daisy UI Configuration:
+https://daisyui.com/docs/install/
+DaisyUI is a components libarary, that has components prebuilt that are already configured, buttons, modal dialogues, progress bar, custom themes, theme generator - copy paste into tailwind file
+https://daisyui.com/theme-generator/
+Daisy UI components:
+https://daisyui.com/components/input/
 
+MongoDB:
+https://www.mongodb.com/atlas/database
 
+Prisma(what we are using to work with our DB) ORM:
+https://www.prisma.io/
+Getting Prisma to work with NextJS:
+https://www.prisma.io/docs/orm/more/help-and-troubleshooting/help-articles/nextjs-prisma-client-dev-practices
 
+Where to get our images for products(free):
+https://unsplash.com/
 
+Next-Auth.js.org(official docs):
+https://next-auth.js.org/
 
-
-
-
-
-
-
-
-
+Vercel(free hosting):
+https://vercel.com/
 
 
 
