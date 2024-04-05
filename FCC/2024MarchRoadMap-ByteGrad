@@ -14,6 +14,13 @@ React(Vite) / Components / Props / Hooks (useState / useEffect / Custom Hooks ) 
 Typescript:
 Basic Types / Inference / Type vs Interface / Generics
 
+Backend/FullStack:
+Next.JS / ServerComponents / Server Actions / Caching / SSR / SSG / Patterns and Best Practices / Data Fetching / ServerSide Validation / Avoid Leaks 
+Seperate Backend:
+Node.JS / Express / Nest.JS / PHP-Laravel / Java(Spring) / Ruby on Rails / Go
+Databases:
+SQL(Postgres / MySQL / SQLite / NoSQL(Mongo) / ORM(Prisma/Drizzle/Mongoose) / Hosted DB Services(Supabase/Firebase/Vercel)
+
 HTML + Semantic HTML<Semantic Tags = don't just use divs everywhere
 CSS = Box Model is very imporant (Margin + Border + Padding)
 FlexBox = What you use 99% of the time, when it comes to layouts
@@ -44,7 +51,29 @@ Inference = TS can detect pretty easily if something is a string a number or a b
 Type vs Interface = look it up
 Generics = most commonly used when you create a custom hook
 
-leftoff @ 12:30=Took a break before backend section
+Backend/FullStack:
+Next.JS
+ServerComponents
+Server Actions
+Caching
+SSR / SSG
+Patterns and Best Practices
+  Data Fetching
+  ServerSide Validation
+  Avoid Leaks
+Seperate Backend:
+Node.JS
+Express
+Nest.JS
+PHP-Laravel
+Java(Spring)
+Ruby on Rails
+Go
+Databases:
+SQL(Postgres / MySQL / SQLite
+NoSQL(Mongo)
+ORM(Prisma/Drizzle/Mongoose)
+Hosted DB Services(Supabase/Firebase/Vercel)
 
 
 
