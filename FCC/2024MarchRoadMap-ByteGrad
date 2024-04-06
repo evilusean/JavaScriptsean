@@ -82,16 +82,16 @@ NoSQL(Mongo) =
 ORM(Prisma/Drizzle/Mongoose) = will abstract away the differences between a SQL and NoSQL DB(models, etc)
 Hosted DB Services(Supabase/Firebase/Vercel) = Do you like spending money and not scaling? Use these
 
-React/NextJS Ecosystem:
-Shadcn UI
-Zod
-React-Hook-Form
-Framer Motion
-Authentication(Next-Auth Vs Kindle)
-Payments (Stripe Vs Kindle)
-Hosting Providers(Vercel)
-Git and Github
-Mobile Apps(React Native and Expo)
+React/NextJS Ecosystem(tools around the core that solve specific problems):
+Shadcn UI(radix UI) / DaisyUI = third party set of components, can install the source code instead of 'npm i x', removes alot of hassle, adds many quality of life improvements
+Zod = just like an API endpoint, validates data, on the serverside/frontend forms, can control loading+error states on forms and validate
+React-Hook-Form = 
+Framer Motion = Very powerful for animation
+Authentication(Next-Auth Vs Kinde) = Next-auth,3rd party authentication, 
+Payments (Stripe Vs Kinde) = stripe is the standard, can also use paypal, embed their code
+Hosting Providers(Vercel) Vs Netlify = hosting for NextJS
+Git and Github = 
+Mobile Apps(React Native and Expo) = 
 
 
 
