@@ -52,7 +52,7 @@ Type vs Interface = look it up
 Generics = most commonly used when you create a custom hook
 
 Backend/FullStack:
-Next.JS = Has built in routing through the file system, also has server components and server actions, very page focused, will create pages out of components
+Next.JS = A React Framework, Has built in routing through the file system, also has server components and server actions, very page focused, will create pages out of components
 ServerComponents = traditional backend code would be written with a webserver with an API end point to update data, which you can do with a server component, for performance benefits
 Server Actions = for developer benefits, don't need to create API endpoints, can set up just a server action to handle data
 Caching = NextJS uses caching automatically, increase performance
@@ -62,20 +62,22 @@ Patterns and Best Practices :
   ServerSide Validation = validate the data you get from a client with something like zod, because you never know what a client is going to send you
   Avoid Leaks = very easy to leak sensitive data, don't do that
 
-Seperate Backend:
-Node.JS
-Express
-Nest.JS
-PHP-Laravel
-Java(Spring)
-Ruby on Rails
-Go
+Seperate Backend(Whenever you have some compute heavy or special task, it's better to do it in a seperate backend): 
+Node.JS = Uses HS and Typescript, most popular for API endpoints
+Express =
+Nest.JS = 
+PHP-Laravel = Popular with wordpress
+Python(django) = Web framework for python,
+Java(Spring) = 
+Ruby on Rails = 
+Go = 
 
 Databases:
-SQL(Postgres / MySQL / SQLite
-NoSQL(Mongo)
-ORM(Prisma/Drizzle/Mongoose)
-Hosted DB Services(Supabase/Firebase/Vercel)
+SQL(Postgres / MySQL / SQLite = SQLite = easiest to set up, only requires a single file in your file system, can not deploy to a serverless platform(like vercel), use during development then change to PostGres
+
+NoSQL(Mongo) = 
+ORM(Prisma/Drizzle/Mongoose) = will abstract away the differences between a SQL and NoSQL DB(models, etc)
+Hosted DB Services(Supabase/Firebase/Vercel) = Do you like spending money and not scaling? Use these
 
 
 
