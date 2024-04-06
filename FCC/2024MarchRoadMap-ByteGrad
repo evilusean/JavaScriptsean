@@ -21,6 +21,9 @@ Node.JS / Express / Nest.JS / PHP-Laravel / Java(Spring) / Ruby on Rails / Go
 Databases:
 SQL(Postgres / MySQL / SQLite / NoSQL(Mongo) / ORM(Prisma/Drizzle/Mongoose) / Hosted DB Services(Supabase/Firebase/Vercel)
 
+React/NextJS Ecosystem:
+Shadcn UI / Zod / React-Hook-Form / Framer Motion / Authentication(Next-Auth Vs Kindle) / Payments (Stripe Vs Kindle) / Hosting Providers(Vercel) / Git and Github / Mobile Apps(React Native and Expo)
+
 HTML + Semantic HTML<Semantic Tags = don't just use divs everywhere
 CSS = Box Model is very imporant (Margin + Border + Padding)
 FlexBox = What you use 99% of the time, when it comes to layouts
@@ -79,7 +82,16 @@ NoSQL(Mongo) =
 ORM(Prisma/Drizzle/Mongoose) = will abstract away the differences between a SQL and NoSQL DB(models, etc)
 Hosted DB Services(Supabase/Firebase/Vercel) = Do you like spending money and not scaling? Use these
 
-
+React/NextJS Ecosystem:
+Shadcn UI
+Zod
+React-Hook-Form
+Framer Motion
+Authentication(Next-Auth Vs Kindle)
+Payments (Stripe Vs Kindle)
+Hosting Providers(Vercel)
+Git and Github
+Mobile Apps(React Native and Expo)
 
 
 
