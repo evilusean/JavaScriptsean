@@ -52,15 +52,16 @@ Type vs Interface = look it up
 Generics = most commonly used when you create a custom hook
 
 Backend/FullStack:
-Next.JS = Has built in routing through the file system, also has server components and server actions, 
-ServerComponents = traditional backend code would be written with a webserver with an API end point to update data, which you can do with a server component 
-Server Actions 
-Caching
-SSR / SSG
-Patterns and Best Practices
-  Data Fetching
-  ServerSide Validation
-  Avoid Leaks
+Next.JS = Has built in routing through the file system, also has server components and server actions, very page focused, will create pages out of components
+ServerComponents = traditional backend code would be written with a webserver with an API end point to update data, which you can do with a server component, for performance benefits
+Server Actions = for developer benefits, don't need to create API endpoints, can set up just a server action to handle data
+Caching = NextJS uses caching automatically, increase performance
+SSR / SSG = Static Site Generation = takes componenets and creates HTML out of it at build, creates HTML out of react components at request time
+Patterns and Best Practices :
+  Data Fetching = typically don't use react query for this anymore, use a server component, submit through server action, 
+  ServerSide Validation = validate the data you get from a client with something like zod, because you never know what a client is going to send you
+  Avoid Leaks = very easy to leak sensitive data, don't do that
+
 Seperate Backend:
 Node.JS
 Express
@@ -69,6 +70,7 @@ PHP-Laravel
 Java(Spring)
 Ruby on Rails
 Go
+
 Databases:
 SQL(Postgres / MySQL / SQLite
 NoSQL(Mongo)
