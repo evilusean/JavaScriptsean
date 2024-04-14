@@ -1,17 +1,25 @@
-React-Icons(Icons for React/NextJS Projects:
-https://react-icons.github.io/react-icons/
-
-Tanstack React Query V3 Official Docs:
-https://tanstack.com/query/v3/
-
-Date-fns(used to switch datetime in projects) for javascript:
-https://date-fns.org/
-https://www.npmjs.com/package/date-fns
-npm i date-fns
-
-Jotai(state manager for react-global state management solusean):
-https://jotai.org/
-npm i jotai #installs jotai  
+CSS Toolkit:
+https://www.youtube.com/watch?v=wbnCvzsM_lQ&ab_channel=WebDevWithRon
+Haikei App(Generate Random Background Images SVG/PNG):
+https://app.haikei.app/
+Color Hunt (Color Palette's):
+https://colorhunt.co/
+RealTimeColors (visualize colorhunt pallette, see what your website would look like with a theme):
+https://www.realtimecolors.com/?colors=050315-fbfbfe-2f27ce-dedcff-433bff&fonts=Poppins-Poppins
+Neumorphism.io (helps you generate a soft UI, change CSS settings with bars, colors, has prebuilt CSS templates you can use, with animations):
+https://neumorphism.io/#e0e0e0
+Fancy-Border-Radius (Allows you to visualize a redundant fancy border oblong radius, with click and drag, copy to clipboard):
+https://9elements.github.io/fancy-border-radius/
+CSS Grid Generator(click and drag to set up your grid/divs, change columns+rows+gap, copy and paste CSS+HTML):
+https://cssgrid-generator.netlify.app/
+Animated Hamburger Dropdown menus (animated, prebuilt with CSS)
+https://jonsuh.com/hamburgers/
+Prebuilt CSS buttons with CSS cheatsheet:
+https://cssbuttons.app/
+CSS Glow/Text-Shadow/Under-line/BoxShadow Generator(GUI for setting glow settings):
+https://cssbud.com/css-generator/css-glow-generator/
+Omatsuri (Web Dev Open Source Tools) Triangle/Gradient/Page Dividers Generators/SVG to JSX/SVG Compresses/Symbols Collection/Cursors Cheatsheet/Fake Data Generator/Keyboard Events Codes:
+https://omatsuri.app/
 
 Social Share Preview Will check how your website will be displayed when shared on various social media sites:
 https://socialsharepreview.com/
@@ -49,7 +57,22 @@ https://next-auth.js.org/
 Vercel(free hosting):
 https://vercel.com/
 
+=================================================================================================================================================================================================================================
+React Libraries:
+React-Icons(Icons for React/NextJS Projects:
+https://react-icons.github.io/react-icons/
 
+Tanstack React Query V3 Official Docs:
+https://tanstack.com/query/v3/
+
+Date-fns(used to switch datetime in projects) for javascript:
+https://date-fns.org/
+https://www.npmjs.com/package/date-fns
+npm i date-fns
+
+Jotai(state manager for react-global state management solusean):
+https://jotai.org/
+npm i jotai #installs jotai  
 
 
 
