@@ -377,6 +377,10 @@ https://vercel.com/guides/how-to-use-python-and-javascript-in-the-same-applicati
 Astronomy:
 https://www.youtube.com/watch?v=H9KefzbryEw&ab_channel=freeCodeCamp.org
 
+KanBan Board: React/Typescript/Tailwind/Dnd-kit (can add to Vercel):
+https://github.com/Kliton/react-kanban-board-dnd-kit-tutorial-yt
+https://www.youtube.com/watch?v=RG-3R6Pu_Ik&ab_channel=CodewithKliton
+
 Money Stack (ReactJS(useState + useEffect) / NextJS(Routing + SEO) / Tailwind(faster than CSS) / DaisyUI(pick a theme-find a cool typeface on googlefonts) /
   BackEnd (NextJS Serverless Functions)  / MongoDB (Backups=10$/month M0 Cluster=Free) Development use Local version / Mongoose / Vercel(hosting-20$ a month-push changes to github repo-auto pull to site)
   Extras: MagicLinks (email signup token) / MailGun (email provider) / Stripe(payments) / Plausible(analytics-29$ a month) / ChatGPT(20$ a month) / Amazon AWS-S3(image hosting bucket) CloudFront / Github Copilot : 
