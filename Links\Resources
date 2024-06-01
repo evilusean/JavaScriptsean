@@ -395,6 +395,12 @@ Money Stack (ReactJS(useState + useEffect) / NextJS(Routing + SEO) / Tailwind(fa
   Extras: MagicLinks (email signup token) / MailGun (email provider) / Stripe(payments) / Plausible(analytics-29$ a month) / ChatGPT(20$ a month) / Amazon AWS-S3(image hosting bucket) CloudFront / Github Copilot : 
 https://www.youtube.com/watch?v=b_ANHgTHNSI&ab_channel=MarcLou
 
+Mericari(Japan) Stack:
+Backend = Go /  Google Cloud Platform (GKE, Cloud SQL for PostgreSQLなど) / GraphQL / gqlgen
+Frontend = React / TypeScript / Next.js / Apollo Client (React)
+Mobile = Flutter / Dart
+Simply put learn GO, NEXT or FLUTTER.
+
 JS to know for React:==============================================================================================================================================================================================================
 Array Functions(.map, .sort, .filter, .reduce, .etc):
 https://dev.to/devsmitra/28-javascript-array-hacks-a-cheat-sheet-for-developer-5769
