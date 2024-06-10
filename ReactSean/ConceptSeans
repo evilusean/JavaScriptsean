@@ -1,0 +1,8 @@
+A File to store all React Concepts you need to know:
+https://www.youtube.com/watch?v=wIyHSOugGGw&ab_channel=CodeBootcamp
+
+Components = Building blocks of every React app, create all visibile parts of applications, infinitely reusable, every component is a JS function that returns markup(JSX, not html)
+  Written in camelCase, className="", You can use dynamic JS values in JSX(React) using {} curly braces, where as HTML is static, 
+  {} curly braces accept values from variables, such as strings, or numbers, dynamic attributes, 
+  JS functions can only return one thing, you can only return one parent element from a component, workaround is to wrap in a <div> or <> React Fragment
+Props = 
