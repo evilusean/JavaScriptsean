@@ -46,6 +46,57 @@ camera.position.y = 2; #will move the camera up 2 on the Y coord
 camera.position.set(0, 2, 5); #will set the camera on the scene, first element is X axis, (X, Y, Z)
 
 10:00=============================================================================================================================================================================================================================
+const boxGeometry = new THREE.BoxGeometry(); #will create a new naked box object
+const boxMaterial = new THREE.MeshBasicMaterial({color: 0x00FF00}); #new mesh object of color <-that
+const box = new THREE.Mesh(boxGeometry, boxMaterial); #creates a new box object that has a mesh
+scene.add(box); #adds the new box object to the scene(sean)
+box.rotation.x = 5; #Geometric Transformation, after creating our objects we can transform them, such as a rotation, 
+box.rotation.y = 5; #transformation rotation of y axis by 5
+function animate() {box.rotation.x += 0.01; box.rotation.y += 0.01; renderer.render(scene, camera); } #will create an animation that rotates a cube
+renderer.setAnimationLoop(animate); #pass our above new function as an argument to animate the cube
+function animate(time) {box.rotation.x = time / 1000; box.rotation.y = time / 1000; renderer.render(scene, camera); } #control the speed of animation by using 'time' as an argument and variable for rotation
+
+import {OrbitControls} from 'three/examples/jsm/controls/OrbitCOntrols.js'; #will allow us to control the camera angle using the mouse buttons 
+const orbit = new OrbitControls(camera, renderer.domElement); #we need to create an instance in order to use it
+orbit.update() #call the update method every time you change the position of the camera - this is very important - now you can rotate the camera around the cube object, left click rotates, scroll in/out with wheel, right up/down
+
+The creation of an element in ThreeJS happens in 3 phases, 1) Creation of Geometry/Skeleton, 2) Creation of the Material/Mesh/Skin 3) Cover the Geometry with the Material/Mesh/Skin
+Some materials require more resources/demands on the system and you should be careful which material you pick in case someone is using your site on a potatoe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
