@@ -1,8 +1,54 @@
 Tutorial:
 https://www.youtube.com/watch?v=xJAfLdUgdc4&ab_channel=WaelYasmina
 
+NPM:
+https://www.npmjs.com/package/three
+
 Start: 12Jun2024
 End:
 
 Notes:
 Going to start here, just to understand the basics and then get into projects, 
+First create project file, install a bundler through NPM, 
+'npm init -Y' #creates package.json
+'npm install parcel --save-dev' or 'npm install parcel -g' #global install or use something like webpack
+'npm install three' #will install threeJS, install after parcel
+next, create a 'src' foldoer with 'js' 'script.js' and 'index.html'
+<script src="./js/scripts.js" type="module"> #notice how the type is set to module and not script
+import * as THREE from 'three'; #import all from threeJS
+const renderer = new THREE.WebGLRenderer(); #next we need create an instance of the webGL renderer - a tool which ThreeJS uses to allocate space on a webpage, where you can add and animate 
+renderer.setSize(window.innerWidth, window.innerHeight); #width and height as arguments, this will take up the full page using the .innerWidth and Height properties, this is basically a canvas element
+document.body.appendChild(renderer.domElement); #inject that space into the page
+'parcel ./src/index.html' #will bundle your newly created page, will also refresh the page every time you save, will create a 'dist' folder
+<style>body { margin: 0 }</style> # to get rid of the scrollbars, set the margin to zero, will need to do this if your canvas is the full size of the screen
+
+X,Y,Z = 3D, 3 Axis, corodinates, cartesian Coords, 
+Set the sean(scene) - you will need a camera, and components (lights, actor, objects)
+You need to create a scene(sean) by creating an instance of the sean(scene) class, then choose a camera, to create an instance, then add elements to the scene
+2 types of cameras = 1st: Perspective camera(same as RL camera), and autographic camera(used to render 2D seans(scenes))
+to create a perspective camera in ThreeJS, you need X4 Values = Vertical Field of View(Max Angle), Aspect Ratio(proportion of width and height w/h), Near and Far Clipping planes(bounds of what can be sean(seen)/rendered), 
+x6 Values for Autographic Camera = Left, Right, Top, Bottom Edges(or limits of the scene(sean)), Near and Far Clipping Planes(also limits of the scene(sean) but distance) 
+The perspective of the ball changes as the ball get's closer or farther away from the camera using a perspective camera, with an autographic camera, it does not, depth does not matter for autographic
+
+#to create a new scene, we need x4 Arguments, talked about above
+const scene = new THREE.Scene(); 
+const camera = new THREE.PerspectiveCamera(
+  75, #Field of view depends on what you are working on(generally between 40-80 is good)
+  window.innerWidth / window.innerHeight, #aspect ratio, width / height 
+  0.1 #near clipping plane
+  1000 #far clipping plane
+); 
+renderer.render(scene, camera); #will render the scene(sean) using the newly created scene(sean) and camera as arguments
+const axesHelper = new Three.AxesHelper(5) #Axes Helper, a tool that serves as a guide, introduces the 3D coordinates system into the scene, the '5' represenets the length of the Axes
+scene.add(axesHelper); #will add the newly created axesHelper to the scene(sean)
+camera.position.z = 5; #the camera is set to the point (0,0,0) by default, we will move the camera up 5 on the Z coordinate
+camera.position.y = 2; #will move the camera up 2 on the Y coord
+camera.position.set(0, 2, 5); #will set the camera on the scene, first element is X axis, (X, Y, Z)
+
+10:00=============================================================================================================================================================================================================================
+
+
+
+
+
+
