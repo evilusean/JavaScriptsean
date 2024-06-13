@@ -87,13 +87,34 @@ sphere.position.set(-10, 10, 0) #will reposition (X, Y,Z) (-10, 10, 0) - you don
 
 20:00================================================================================================================================================================================================================================
 Debugging and playing with values to get the perfect position of an element and it's color can take a long time, there is a tool you can utilize to solve this problem : 'dat.gui'
+to install it stop parcel first
+'npm install dat,gui' #will install 'dat.gui' a package for sorting out the location and coloring of objects in Three.JS
+'parcel ./src/index.html' #restart parcel after installing dat.gui
 
+import * as dat from 'dat.gui' #import all 
+const gui = new dat.GUI(); #create a new instance of the GUI class
 
+#will create a color pallette to test colors
+const options = { sphereColor: '#ffea00' }; 
+gui.addColor(options, 'sphereColor').onChange(function(e){
+  sphere.material.color.set(e) 
+}); #to add the color pallette we need to add 'options' and 'sphereColor' as arguments, onChange will call the function every time we change the color, above code will create a GUI to change the color of the sphere
 
+#will create a color pallette to test colors, and a checkbox for the wireframe mode
+const options = { sphereColor: '#ffea00', wireframe: false, }; 
+gui.add(options, 'wireframe').onChange(function(e){
+  sphere.material.wireframe = e;
+});#will create a check box that will check 'e' if the checkbox is checked it will show 'true' unchecked 'false' to our GUI
 
+#to create a sphere bounce 
+let step = 0;
+let speed = 0.01
+function animate(time) { step += speed; sphere.position.y = 10 * Math.abs(Math.sin(step)); } #will create an animated bounce of the sphere - I don't understand how the formula works - but it works
 
-
-
+#to create a sphere bounce and add a slider to control the bouncing speed in the GUI
+const options = { sphereColor: '#ffea00', wireframe: false, speed: 0.01, };
+gui.add(options, 'speed', 0, 0.1); #2 new added arguments, one being the minimum value and the second being the maximum value
+function animate(time) { step += options.speed; sphere.position.y = 10 * Math.abs(Math.sin(step)); } #note the 'options.speed' will take the value from there, from our 'const options' variable
 
 
 
