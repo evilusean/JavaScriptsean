@@ -4,6 +4,9 @@ https://threejs.org/docs/
 NPM:
 https://www.npmjs.com/package/three
 
+dat.gui #GUI for ThreeJS - Positioning / Colors / Animation:
+https://sbcode.net/threejs/dat-gui/
+
 Host ThreeJS on Github Pages:
 https://sbcode.net/threejs/github-pages/#:~:text=js%20and%20possibly%20some%20extra,E.g.%2C%20My%2DProject%20.
 
