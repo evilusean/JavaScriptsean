@@ -63,11 +63,15 @@ orbit.update() #call the update method every time you change the position of the
 The creation of an element in ThreeJS happens in 3 phases, 1) Creation of Geometry/Skeleton, 2) Creation of the Material/Mesh/Skin 3) Cover the Geometry with the Material/Mesh/Skin
 Some materials require more resources/demands on the system and you should be careful which material you pick in case someone is using your site on a potatoe
 
+const planeGeometry = new THREE.PlaneGeometry(30, 30); #create a 30x30 flat plane geometry
+const planeMaterial = new THREE.MeshBasicMaterial({color: 0xFFFFFF}); #create a color mesh
+const plane = new THREE.Mesh(planeGeometry, planeMaterial); #add geometry and mesh together
+scene.add(plane); #add our new mesh to the scene
+when you rotate the plane to the side, the material disapears - to fix this you need to add the side property and change it to 3 double side, like below
+const planeMaterial = new THREE.MeshBasicMaterial({color: 0xFFFFFF, side: THREE.DoubleSide, });
 
-
-
-
-
+const gridHelper = new THREE.GridHelper(30, 100); #creates a grid of size (30) with (100) squares divided into it the (30, 100) is optional
+scene.add(gridHelper); #adds a grid to the scene
 
 
 
