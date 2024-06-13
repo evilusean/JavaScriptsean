@@ -62,6 +62,7 @@ orbit.update() #call the update method every time you change the position of the
 
 The creation of an element in ThreeJS happens in 3 phases, 1) Creation of Geometry/Skeleton, 2) Creation of the Material/Mesh/Skin 3) Cover the Geometry with the Material/Mesh/Skin
 Some materials require more resources/demands on the system and you should be careful which material you pick in case someone is using your site on a potatoe
+If you use the 'THREE.MeshBasicMaterial' it will appear without a light source - 'MeshStandardMaterial' 'MeshLambartMaterial' both require a lightsource - check documentASean to know the full list
 
 const planeGeometry = new THREE.PlaneGeometry(30, 30); #create a 30x30 flat plane geometry
 const planeMaterial = new THREE.MeshBasicMaterial({color: 0xFFFFFF}); #create a color mesh
@@ -73,9 +74,19 @@ const planeMaterial = new THREE.MeshBasicMaterial({color: 0xFFFFFF, side: THREE.
 const gridHelper = new THREE.GridHelper(30, 100); #creates a grid of size (30) with (100) squares divided into it the (30, 100) is optional
 scene.add(gridHelper); #adds a grid to the scene
 
+const sphereGeometry = new THREE.SphereGeometry(4);
+const sphereMaterial = new THREE.MeshBasicMaterial({color: 0x0000FF, wireframe: true}); #wireframe will allow us to see the polygons(is that the right word?) dodecahedrons(?) the wire frame outline.
+const spehere = new THREE.Mesh(sphereGeometry, sphereMaterial);
+scene.add(sphere); # will add a blue sphere to the center of the scene, with wireframe = WELCOME TO THE BLUE THUNDERDOME
 
+the quality of the mesh depends upon the number of faces on the entity, if you increase the number of segments, you can increase the 'roundness' of the object
+const sphereGeometry = new THREE.SphereGeometry(4, 10, 10); #decreased the proporSeans of the sphere, and way less rounded due to the reduced amount of faces on the segments,
 
+sphere.position.x = -10; #will repositionthe sphrere into the -10th(?) X position
+sphere.position.set(-10, 10, 0) #will reposition (X, Y,Z) (-10, 10, 0) - you don't have to set each axis individually like above, do all 3 at once
 
+20:00================================================================================================================================================================================================================================
+Debugging and playing with values to get the perfect position of an element and it's color can take a long time, there is a tool you can utilize to solve this problem : 'dat.gui'
 
 
 
