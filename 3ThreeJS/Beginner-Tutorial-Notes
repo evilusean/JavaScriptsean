@@ -116,11 +116,24 @@ const options = { sphereColor: '#ffea00', wireframe: false, speed: 0.01, };
 gui.add(options, 'speed', 0, 0.1); #2 new added arguments, one being the minimum value and the second being the maximum value
 function animate(time) { step += options.speed; sphere.position.y = 10 * Math.abs(Math.sin(step)); } #note the 'options.speed' will take the value from there, from our 'const options' variable
 
+There are different types of light we can use to illuminate the scene(sean), our meshes can cast shadows, 
+  1) Ambient Light = light that comes from the environment, like daylight in a room
+  2) Directional Light = Has a source, and a direction
+  3) Spotlight = Emits the light in the form of a cone
+each different material has a different algorithm for how it is affected by light, in order to make them cast smoother shadows, and realistic reflectSeans
+working with lights can be tricky, ThreeJS provides helpers to work with lights, taking the lights as arguments, changing the positions of the lights changes the shadows
 
+#create an ambient light
+const ambientLight = new THREE.AmbientLight(0x333333);  #
+scene.add(ambientLight); #to add an ambient light we need to add it to the scene, same as an object/mesh
 
-
-
-
+#create a directional light
+const directonalLight = new THREE.DirectionalLight(0xFFFFFF, 0.8);
+scene.add(directionalLight); #also needs to be added to the scene after being created, this will work fine, we can create a directional light helper to help us with the location of the light - below
+const dLightHelper = new THREE.DirectionalLightHelper(directionalLight); #we pass the light we created as an argument for the helper
+scene.add(dLightHelper); #also needs to be added to the scene, it will be seen as a square that indicates the direction of the light
+directionalLight.position.set(-30, 50, 0); #will change the position of the light, if we change the position of the light, the helper will automatically move with it.
+const dLightHelper = new THREE.DirectionalLightHelper(directionalLight, 5);  #the '5' as second argument will change the size of the directional square showing position
 
 
 
