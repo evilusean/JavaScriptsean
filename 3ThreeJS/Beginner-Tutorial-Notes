@@ -134,9 +134,39 @@ const dLightHelper = new THREE.DirectionalLightHelper(directionalLight); #we pas
 scene.add(dLightHelper); #also needs to be added to the scene, it will be seen as a square that indicates the direction of the light
 directionalLight.position.set(-30, 50, 0); #will change the position of the light, if we change the position of the light, the helper will automatically move with it.
 const dLightHelper = new THREE.DirectionalLightHelper(directionalLight, 5);  #the '5' as second argument will change the size of the directional square showing position
+spotLight.castShadow = true; #will allow the spotLight to cast a shadow
+spotLight.angle = 0.2; #narrows the spotlights angle, reducing the pixelation of the shadow, and increasing resolution
 
+#create a spotlight
+const spotLight = new THREE.SpotLight(0xFFFFFF); #syntax to create a spotlight
+scene.add(spotLight) #also needs to be added to the scene
+spotLight.position.set(-100, 100, 0); #will change the position of spotlight (X, Y, Z)
+const sLightHelper = new THREE.SpotLightHelper(spotLight); #will create a spotLightHelper to view the light
+scene.add(sLightHelper); #add it to the scene
 
+Shadows in ThreeJS are not enabled by default, you will also need to manually set if an object receives or casts shadows or not, 
+  shadows in ThreeJS will have a shadow camera internally, it delimits where to render the shadows, to render the shadows, we can use another helper 
+renderer.shadowMap.enabled = true; #Shadows by default are turned off, put this as the start of code to enable
+plane.receiveShadow = true; #you will need to enable that objects receive shadows for each object, this will enable it for the 'plane'
+sphere.castShadow = true; #enable casting shadows for the 'sphere'
+directionalLight.castShadow = true; #lights will also need to have shadows enabled, main source of casting shadows
+const dLightShadowHelper = new THREE.CameraHelper(directionalLight.shadow.camera) #shows wheredelimits where to render the shadows, will render a shadowHelper for our lightsource
+scene.add(dLightShadowHelper); #will also need to be added to the scene, will give 4 lines showing the surface on which a shadow can be rendered
+directonalLight.shadow.camera.bottom = -12; #will increase the shadow camera size(area which casts shadows) by -12 since it's the bottom and going negative, it will increase - + - 
 
+#add more to GUI for spotlight shadows
+const options = { sphereColor: '#ffea00', wireframe: false, speed: 0.01, angle: 0.2, penumbra: 0, intensity: 1 };
+gui.add(options, 'angle', 0, 1); #arguments are options variable, angle, min, max - will add to the GUI to fix the positioning/color/shadows
+gui.add(options, 'penumbra', 0, 1); #arguments are options variable, penumbra, min, max - will add to the GUI to fix the positioning/color/shadows
+gui.add(options, 'intensity', 0, 1); #arguments are options variable, angle, min, max - will add to the GUI to fix the positioning/color/shadows
+function animate(time) { step += options.speed; sphere.position.y = 10 * Math.abs(Math.sin(step)); spotLight.angle = options.angle; spotLight.penumbra = options.penumbra; spotLight.intensity = options.intensity; sLightHelper.update() }
+  #animation values, taken from the options variable, make sure that you update the helper when you update the variables, 
+penumbra is a progressive blur 
+intensity is the intensity of light
+angle is the... angle
+
+33:00===========================================================================================================================================================================================================
+We can add fog 
 
 
 
