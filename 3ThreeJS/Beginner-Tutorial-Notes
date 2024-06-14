@@ -166,8 +166,21 @@ intensity is the intensity of light
 angle is the... angle
 
 33:00===========================================================================================================================================================================================================
-We can add fog 
+#add fog, 2 methods
+scene.fog = new THREE.Fog(0xFFFFFF, 0, 200) # takes three arguments, 'color' 'near limit' and 'far limit' of the space, the further you get from '0' the denser the fog gets
+scene.fog = new THREE.FogExp2(0xffffff, 0.01) #second method of creating fog, instantiating the fog exp 2 class, 2 arguments 'color' and 'density', the density grows exponentially with distance from the camera
 
+#change background
+renderer.setClearColor(0xFFEA00); #will change the background to yellow
+
+#change background to an image = add image to 'src/img' folder for below code, parcel will bundle any used asset from there
+import imagename from '../img/imagename.jpg' #first import assets, once you save a new file will be created
+const textureLoader = new THREE.TextureLoader(); #first create the loader to use an asset in ThreeJS you need to load it first, for images you need a textureLoader, each type of asset/file requires a different loading method, 
+scene.background = textureLoader.load(imagename); #will use our newly created loader to load the 'imagename' into the background
+
+#cube texture loader, the background has x6 sides, each one can be set for the background, <>^\/top bot
+const cubeTextureLoader = new THREE.CubeTextureLoader(); #create the cube texture loader
+scene.background = cubeTextureLoader.load([imagename1, imagename2, imagename3, imagename4, imagename5, imagename6]); #takes an array of image paths, each will serve as a texture to the face of the cube/scene, x6 sides = x6 array
 
 
 
