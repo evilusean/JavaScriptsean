@@ -205,6 +205,30 @@ function animate(time) { for(let i=0; i < intersects.length; i++) { if(intersect
 box2.name = 'theBox'; #set a name to an element, then add a condition to the loop that changes the box if it gets hovered
 function animate(time) { for(let i=0; i < intersects.length; i++) { if(intersects[i].object.id === 'theBox') {box.rotation.x = time /1000; box.rotation.y = time /1000 } } #will rotate the box if it is hovered
 
+#change shape of mesh
+You can change the shape of the mesh by updating the points that make up the geometry of that mesh
+const plane2Geometry = new THREE.PlaneGeometry(10, 10, 10, 10);
+const plane2Material = new THREE.MeshBasicMaterial({color: 0x$$$$$$, wireframe: true });
+const plane2 = new THREE.Mesh(plane2Geometry, plane2Material);
+scene.add(plane2);
+plane2.position.set(10, 10, 15);
+plane2.geometry.attributes.position.array[0] -= 10 * Math.random();#0 based index [X,Y,Z,X,Y,Z...] so 0=X
+plane2.geometry.attributes.position.array[1] -= 10 * Math.random();
+plane2.geometry.attributes.position.array[2] -= 10 * Math.random(); #now everytime you refresh the page, 3 random values are set on these vertexes(vertices?)
+const LastPointZ = plane2.geometry.attributes.position.array.length -1; #to change Z index, change the last point on the array
+plane2.geometry.attributes.position.array[LastPointZ] -= 10 * Math.random();
+plane2.geometry.attributes.position.needsUpdate #to animate replace the '-=' above with '=' and add this line of code at the end, and move above code to the 'animate' function
+
+
+
+
+
+
+
+
+
+
+
 
 
 
