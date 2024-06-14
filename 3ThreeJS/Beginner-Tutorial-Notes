@@ -195,9 +195,15 @@ const box2MultiMaterial = [new THREE.MeshBasicMaterial({map: textureLoader.load(
 40:00==============================================================================================================================================================================================================================
 Raycaster = In some cases you may want the user to select elements from the scene this can be done with a raycaster = emits an invisible ray that between a 'source' and a 'destination' every object that the ray goes through
   gets registered - using the 'camera' as 'source' and 'mouse' as 'destination' 
-
-
-
+const mousePosition = new THREE.Vector2();
+window.addEventListener('mousemove', function(e) {mousePosition.x = (e.clientX / window.innerWidth) * 2 - 1; mousePosition.y = - (e.clientY / window.innerHeight) * 2 + 1;}); #add an eventlistener to catch the change of the mouse 
+const rayCaster = new THREE.Raycaster();#create new instance of raycaster class
+function animate(time) {rayCaster.setFromCamera(mousePosition, camera); const intersects = rayCaster.intersectObjects(scene.children);} #in the animate function, will check if any objects intersect from the camera to the mouse position
+console.log(intersects); #will log any objects that are touched by the mouse, including the helpers -
+const sphereId = sphere.id #threeJS gives an ID to each element add to the scene, this can be seen in the console.log
+function animate(time) { for(let i=0; i < intersects.length; i++) { if(intersects[i].object.id === sphereId) intersects[i].object.materiial.color.set(0xFF0000); } # will loop and change color if the sphere is hovered with mouse to red
+box2.name = 'theBox'; #set a name to an element, then add a condition to the loop that changes the box if it gets hovered
+function animate(time) { for(let i=0; i < intersects.length; i++) { if(intersects[i].object.id === 'theBox') {box.rotation.x = time /1000; box.rotation.y = time /1000 } } #will rotate the box if it is hovered
 
 
 
