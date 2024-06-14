@@ -182,12 +182,19 @@ scene.background = textureLoader.load(imagename); #will use our newly created lo
 const cubeTextureLoader = new THREE.CubeTextureLoader(); #create the cube texture loader
 scene.background = cubeTextureLoader.load([imagename1, imagename2, imagename3, imagename4, imagename5, imagename6]); #takes an array of image paths, each will serve as a texture to the face of the cube/scene, x6 sides = x6 array
 
+#create a cube with custom faces
+const box2Geometry = new THREE.BoxGeometry(4, 4, 4);
+const box2Material = new THREE.MeshBasicMaterical({color: 0x00FF00, map: textureLoader.load(imageArrayVariable)}); #will use the textureLoader to load an image array with x6 images, 1 for each face for the cube, in greenish tint
+const box2 = new THREE.Mesh(box2Geometry, box2Material);
+scene.add(box2)
+box2.position.set(0, 15, 10);
 
+#create a custom mesh for above box
+const box2MultiMaterial = [new THREE.MeshBasicMaterial({map: textureLoader.load(stars)}),]; #will need to repeat the 'map: {}' x6 times for a complete cube
 
-
-
-
-
+40:00==============================================================================================================================================================================================================================
+Raycaster = In some cases you may want the user to select elements from the scene this can be done with a raycaster = emits an invisible ray that between a 'source' and a 'destination' every object that the ray goes through
+  gets registered - using the 'camera' as 'source' and 'mouse' as 'destination' 
 
 
 
