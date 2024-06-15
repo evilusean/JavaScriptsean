@@ -5,7 +5,7 @@ NPM:
 https://www.npmjs.com/package/three
 
 Start: 12Jun2024
-End:
+End: 14Jun2024
 
 Notes:
 Going to start here, just to understand the basics and then get into projects, 
@@ -251,3 +251,12 @@ const fShader = `void main() {gl_FragColor = vec4(0.5, 0.5, 1.0, 1.0);}`; #fragm
 const sphere2Material = new THREE.ShaderMaterial({ vertexShader: document.getElementById('vertexShader'), fragmentShader: document.getElementById('fragmentShader') });
 
 #import models that you create
+In blender, ensure you export the model in the right format '.gltf' '.glb' '.fbx' or '.obj'
+const monkeeURL = new URL(../assets/monkee.glb', import.meta.url);#create a variable that holds an instance of the URL class, it takes 2 arguments = the path to the file and an 'import,meta.url'
+import {GLTFLoader} from 'three/examples/jsm/loaders/GLTFLoader.js'; #import a special ThreeJS loader to import the special files
+const assetLoader = new GLTFLoader(); #next, create an instance of the GLTF loader, and call the load method on it
+assetLoader.load(monkeyUrl.href, function(gltf) {const model = gltf.scene; scene.add(model); model.position.set(-12, 4, 10);}, undefined, function(error) {console.error(error)}) 
+  #the first argument is the path to the file, the second is a callback function, will add model to the scene, the second argument of load is another function which tells about the progress of the loading process 'undefined', and error
+
+#add in responsiveness, 
+window.addEvenetListener('resize', function() {camera.aspect =  window.innerWidth / window.innerHeight; camera.updateProjectionMatrix(); renderer.setSize(window.innerWidth, window.innerHeight);});
