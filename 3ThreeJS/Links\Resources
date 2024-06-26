@@ -53,10 +53,19 @@ https://www.youtube.com/watch?v=vM8M4QloVL0&ab_channel=ChrisCourses
 Create the Earth with THREE.js(20min):
 https://www.youtube.com/watch?v=FntV9iEJ0tU&ab_channel=RobotBobby
 
-Can Add Different AnimASeans to my CV2 canvas that I used for 'Matrix Rain' simply add a new .js and hook it up to the canvas, if they click a new button, clear the canvas and do the new animasean - 
 
 React 3D Portfolio Website with Three.js | Build and Deploy Responsive React Portfolio:
 https://www.youtube.com/watch?v=qALsVa-V9qo&ab_channel=LamaDev
 
 x3 ThreeJS NextJS Portfolio + React + Iphone Clone (10 hours - just do Iphone portfolio one):
 https://www.youtube.com/watch?v=RbxHZwFtRT4&ab_channel=JavaScriptMastery
+
+Can Add Different AnimASeans to my CV2 canvas that I used for 'Matrix Rain' simply add a new .js and hook it up to the canvas, if they click a new button, clear the canvas and do the new animasean - 2DaMoon AnimASean - Needs moon mesh
+const hemiLight = new THREE.HemisphereLight(0xffffff, 0x000000); #change from white/black to red/black - add a moon mesh to a sphere, and with below code, you will now have a moon AnimASean- Could also do earth + Japan
+scene.add(hemiLight);
+function animate(t = 0) {
+    requestAnimationFrame(animate);
+    mesh.scale.setScalar(Math.cos(t * 0.001) + 1.0) //Will cause the orb to shrink and expand over and over again 2DaMoon
+    renderer.render(scene, camera);
+}
+animate();
