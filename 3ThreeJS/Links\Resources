@@ -61,6 +61,8 @@ x3 ThreeJS NextJS Portfolio + React + Iphone Clone (10 hours - just do Iphone po
 https://www.youtube.com/watch?v=RbxHZwFtRT4&ab_channel=JavaScriptMastery
 
 Can Add Different AnimASeans to my CV2 canvas that I used for 'Matrix Rain' simply add a new .js and hook it up to the canvas, if they click a new button, clear the canvas and do the new animasean - 2DaMoon AnimASean - Needs moon mesh
+https://github.com/evilusean/CourseraGoogleFCC/blob/main/FCC-ThreeJS-5Projects/1Basics/index.js
+Copy Most of code from above, add to CV2, just replace the mesh on the iso geo with moon mesh, and orbit already works, automatically zooms in, add red color, IlluminASean, hollow moon theory confirmed, 
 const hemiLight = new THREE.HemisphereLight(0xffffff, 0x000000); #change from white/black to red/black - add a moon mesh to a sphere, and with below code, you will now have a moon AnimASean- Could also do earth + Japan
 scene.add(hemiLight);
 function animate(t = 0) {
