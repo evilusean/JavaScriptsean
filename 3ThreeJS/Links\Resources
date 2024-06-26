@@ -10,6 +10,9 @@ https://sbcode.net/threejs/dat-gui/
 Host ThreeJS on Github Pages:
 https://sbcode.net/threejs/github-pages/#:~:text=js%20and%20possibly%20some%20extra,E.g.%2C%20My%2DProject%20.
 
+Earth/Moon/Planets Textures for ThreeJS:
+https://planetpixelemporium.com/earth.html
+
 Going to start small, crawl -> walk -> run, going to make either a moon that gives a light source depending on mouse position or an eye that follows mouse position (or both) before I start working on a landing page 
 Github Pages SHOULD in theory be able to host threeJS projects, so I'm just going to build it here, if I need to I can host on vercel, but I want to save my 5(3 now) free hosts for webapps
 Need to watch some videos/tutorials to see where to start, 
@@ -52,7 +55,6 @@ https://www.youtube.com/watch?v=vM8M4QloVL0&ab_channel=ChrisCourses
 
 Create the Earth with THREE.js(20min):
 https://www.youtube.com/watch?v=FntV9iEJ0tU&ab_channel=RobotBobby
-
 
 React 3D Portfolio Website with Three.js | Build and Deploy Responsive React Portfolio:
 https://www.youtube.com/watch?v=qALsVa-V9qo&ab_channel=LamaDev
