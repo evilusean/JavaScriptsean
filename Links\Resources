@@ -354,21 +354,8 @@ https://www.youtube.com/watch?v=ZUh021S6kpg&ab_channel=ElegantThemes
 png to svg:
 https://www.youtube.com/watch?v=OQK9QMIp1GA&ab_channel=Crystal%27sCrafties
 
-Web Tools : NodePackageManger(NPM), Webpack, Parcel, Viite, Snowpack
-API's: Canvas, Geolocation, Speech, Audio/video, Web RTC(real time communication), local storage 
-Static Site Generators(search engine speed): Gatsby(React), Astro(React/Vue/Svelt), Gridsome(Vue), Jekyll(Ruby), Hugo(Go), Hexo(Node.js), Pelican(Python)
-Headless CMS(content management systems) / Jamstack : Strapi(Node.js), Sanity.io, Keystone, Contentful
-Visualization: Motion UI(animation), FramerMotion(React), Three.js(2D/3D), GSAP, 
-NoCode Tools : Wordpress, Wix, Webflow, Shopify
-Frameworks: Node.js(express, fastify, nestJS, adonis), Python(Django, Flask, FastAPI), PHP(Laravel, symfony, codeigniter, slimPHP), 
-Database (Relational SQL vs Non-relational NoSQL) : PostGreSQL Vs MySQL Vs MongoDB Vs Cassandra Vs CouchBase Vs DynamoDB Vs SQLite Vs .md Vs H2DB Vs redis
-Cloud DB: Mongo Atlas / Firebase / SupaBase / FaunaDB 
-ORMS (Object Relational Mapper ) : Prisma / Mongoose / Sequelize / SQL Alchemy
-Authentication : Seassions & Cookies / JSON Web tokens / OAuth / Auth0 / AWS cognito / Okta / Firebase / Password hashing, 2 factor auth
-Full Stack Deployment : Linode / Render(free tier) / Heroku / AWS 
-Web Security : OWASP, ZAP, Nessus, Burp Suite Vs SQL Injection / XSS(Cross site scripting) / Cross-Site Request Forgery (CSRF)
-Desktop : Electron / Nw.js / TKinter(python GUI) / C# / Java
-Debugging / Testing: Jest
+FCC - Shadcn Component Library Course for Beginners (3 hours):
+https://www.youtube.com/watch?v=oidnyW71W0A&ab_channel=freeCodeCamp.org
 
 WebDev 101 :
 https://www.youtube.com/watch?v=erEgovG9WBs&ab_channel=Fireship
@@ -409,7 +396,7 @@ https://vercel.com/guides/how-to-use-python-and-javascript-in-the-same-applicati
 Astronomy:
 https://www.youtube.com/watch?v=H9KefzbryEw&ab_channel=freeCodeCamp.org
 
-KanBan Board: React/Typescript/Tailwind/Dnd-kit (can add to Vercel):
+*KanBan Board: React/Typescript/Tailwind/Dnd-kit (can add to Vercel):
 https://github.com/Kliton/react-kanban-board-dnd-kit-tutorial-yt
 https://www.youtube.com/watch?v=RG-3R6Pu_Ik&ab_channel=CodewithKliton
 
@@ -423,6 +410,22 @@ Backend = Go /  Google Cloud Platform (GKE, Cloud SQL for PostgreSQLなど) / Gr
 Frontend = React / TypeScript / Next.js / Apollo Client (React)
 Mobile = Flutter / Dart
 Simply put learn GO, NEXT or FLUTTER.
+
+Web Tools : NodePackageManger(NPM), Webpack, Parcel, Viite, Snowpack
+API's: Canvas, Geolocation, Speech, Audio/video, Web RTC(real time communication), local storage 
+Static Site Generators(search engine speed): Gatsby(React), Astro(React/Vue/Svelt), Gridsome(Vue), Jekyll(Ruby), Hugo(Go), Hexo(Node.js), Pelican(Python)
+Headless CMS(content management systems) / Jamstack : Strapi(Node.js), Sanity.io, Keystone, Contentful
+Visualization: Motion UI(animation), FramerMotion(React), Three.js(2D/3D), GSAP, 
+NoCode Tools : Wordpress, Wix, Webflow, Shopify
+Frameworks: Node.js(express, fastify, nestJS, adonis), Python(Django, Flask, FastAPI), PHP(Laravel, symfony, codeigniter, slimPHP), 
+Database (Relational SQL vs Non-relational NoSQL) : PostGreSQL Vs MySQL Vs MongoDB Vs Cassandra Vs CouchBase Vs DynamoDB Vs SQLite Vs .md Vs H2DB Vs redis
+Cloud DB: Mongo Atlas / Firebase / SupaBase / FaunaDB 
+ORMS (Object Relational Mapper ) : Prisma / Mongoose / Sequelize / SQL Alchemy
+Authentication : Seassions & Cookies / JSON Web tokens / OAuth / Auth0 / AWS cognito / Okta / Firebase / Password hashing, 2 factor auth
+Full Stack Deployment : Linode / Render(free tier) / Heroku / AWS 
+Web Security : OWASP, ZAP, Nessus, Burp Suite Vs SQL Injection / XSS(Cross site scripting) / Cross-Site Request Forgery (CSRF)
+Desktop : Electron / Nw.js / TKinter(python GUI) / C# / Java
+Debugging / Testing: Jest
 
 JS to know for React:==============================================================================================================================================================================================================
 Array Functions(.map, .sort, .filter, .reduce, .etc):
