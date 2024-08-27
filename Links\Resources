@@ -415,6 +415,10 @@ Frontend = React / TypeScript / Next.js / Apollo Client (React)
 Mobile = Flutter / Dart
 Simply put learn GO, NEXT or FLUTTER.
 
+Go + HTMX = Simple Tech Stack
+Go Projects x5 (ToDo App-CLI Terminal, Backend Stateless Web API, Webscraper for dead links, URL Shortener website, Currency Converter-Terminal UI) :
+https://www.youtube.com/watch?v=gXmznGEW9vo
+
 Web Tools : NodePackageManger(NPM), Webpack, Parcel, Viite, Snowpack
 API's: Canvas, Geolocation, Speech, Audio/video, Web RTC(real time communication), local storage 
 Static Site Generators(search engine speed): Gatsby(React), Astro(React/Vue/Svelt), Gridsome(Vue), Jekyll(Ruby), Hugo(Go), Hexo(Node.js), Pelican(Python)
