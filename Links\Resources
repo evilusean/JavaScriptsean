@@ -448,6 +448,8 @@ Web Security : OWASP, ZAP, Nessus, Burp Suite Vs SQL Injection / XSS(Cross site 
 Desktop : Electron / Nw.js / TKinter(python GUI) / C# / Java
 Debugging / Testing: Jest
 
+Vercel Vs Free Alternatives(Self Hosted) = Coolify/Dokku
+
 JS to know for React:==============================================================================================================================================================================================================
 Array Functions(.map, .sort, .filter, .reduce, .etc):
 https://dev.to/devsmitra/28-javascript-array-hacks-a-cheat-sheet-for-developer-5769
