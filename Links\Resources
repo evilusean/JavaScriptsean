@@ -6,6 +6,8 @@ Vue + Nuxt + Svelte(classic JS compiles) + Sveltekit(server side render)  vs Rea
 Where to host website: Raspberry Pi PHP webserver vs Apache webserver vs 3rd party vs github vs nginx vs wordpress vs netlify(free) vs vercel(free tier) 
 https://dev.to/jorenrui/6-ways-to-deploy-your-personal-websites--php-mysql-web-apps-for-free-4m3a
 
+Current Plan : Docker -> Go -> AWS -> HTMX - Start Applying again, can do frontend/backend/devops/webdev/data analyst or freelance with this stack, Step 1) Escape canada. 
+
 FreeCodeCamp Certifications:(Do in order)
 https://www.freecodecamp.org/news/freecodecamp-certifications/
 https://www.freecodecamp.org/learn/2022/responsive-web-design/
