@@ -1,113 +1,117 @@
-import Image from "next/image";
+'use client'
 
-export default function Home() {
+import { useState, Suspense } from 'react'
+import dynamic from 'next/dynamic'
+import { ScrollArea } from "@/components/ui/scroll-area"
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
+import { Button } from "@/components/ui/button"
+import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card"
+import Link from 'next/link'
+
+// this was generated using V0 from vercel, Add Block to Project : Run this command to add this Block to an existing project or to create a new one.
+// npx shadcn@latest add "https://v0.dev/chat/b/AGQFCWw?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..VqfqrDRdJXG16Gj7.TJlUBeNmBMV7Mth-rQznzlAC5eSgiQmL_-xpJPBnd2LMAUfG4P0.oOFN1rWcSbXV2zUSS833nw"
+
+const components = [
+  { name: "Accordion", description: "A vertically stacked set of interactive headings that each reveal a section of content.", docLink: "https://ui.shadcn.com/docs/components/accordion" },
+  { name: "Alert", description: "Displays a callout for user attention.", docLink: "https://ui.shadcn.com/docs/components/alert" },
+  { name: "AlertDialog", description: "A modal dialog that interrupts the user with important content and expects a response.", docLink: "https://ui.shadcn.com/docs/components/alert-dialog" },
+  { name: "AspectRatio", description: "Displays content within a desired ratio.", docLink: "https://ui.shadcn.com/docs/components/aspect-ratio" },
+  { name: "Avatar", description: "An image element with a fallback for representing the user.", docLink: "https://ui.shadcn.com/docs/components/avatar" },
+  { name: "Badge", description: "Displays a badge or a component that looks like a badge.", docLink: "https://ui.shadcn.com/docs/components/badge" },
+  { name: "Breadcrumb", description: "Displays the hierarchical path to the current page or resource.", docLink: "https://ui.shadcn.com/docs/components/breadcrumb" },
+  { name: "Button", description: "Displays a button or a component that looks like a button.", docLink: "https://ui.shadcn.com/docs/components/button" },
+  { name: "Calendar", description: "A date field component that allows users to enter and edit date.", docLink: "https://ui.shadcn.com/docs/components/calendar" },
+  { name: "Card", description: "Displays a card with header, content, and footer.", docLink: "https://ui.shadcn.com/docs/components/card" },
+  { name: "Carousel", description: "A carousel component for cycling through elements.", docLink: "https://ui.shadcn.com/docs/components/carousel" },
+  { name: "Checkbox", description: "A control that allows the user to toggle between checked and not checked.", docLink: "https://ui.shadcn.com/docs/components/checkbox" },
+  { name: "Collapsible", description: "An interactive component which expands/collapses a panel.", docLink: "https://ui.shadcn.com/docs/components/collapsible" },
+  { name: "Combobox", description: "Autocomplete input and command palette with a list of suggestions.", docLink: "https://ui.shadcn.com/docs/components/combobox" },
+  { name: "Command", description: "Fast, composable, unstyled command menu for React.", docLink: "https://ui.shadcn.com/docs/components/command" },
+  { name: "ContextMenu", description: "Displays a menu to the user — such as a set of actions or functions — triggered by a button.", docLink: "https://ui.shadcn.com/docs/components/context-menu" },
+  { name: "Dialog", description: "A window overlaid on either the primary window or another dialog window.", docLink: "https://ui.shadcn.com/docs/components/dialog" },
+  { name: "DropdownMenu", description: "Displays a menu to the user — such as a set of actions or functions — triggered by a button.", docLink: "https://ui.shadcn.com/docs/components/dropdown-menu" },
+  { name: "Form", description: "Building forms with React Hook Form.", docLink: "https://ui.shadcn.com/docs/components/form" },
+  { name: "HoverCard", description: "For sighted users to preview content available behind a link.", docLink: "https://ui.shadcn.com/docs/components/hover-card" },
+  { name: "Input", description: "Displays a form input field or a component that looks like an input field.", docLink: "https://ui.shadcn.com/docs/components/input" },
+  { name: "Label", description: "Renders an accessible label associated with controls.", docLink: "https://ui.shadcn.com/docs/components/label" },
+  { name: "Menubar", description: "A visually persistent menu common in desktop applications.", docLink: "https://ui.shadcn.com/docs/components/menubar" },
+  { name: "NavigationMenu", description: "A collection of links for navigating websites.", docLink: "https://ui.shadcn.com/docs/components/navigation-menu" },
+  { name: "Popover", description: "Displays rich content in a portal, triggered by a button.", docLink: "https://ui.shadcn.com/docs/components/popover" },
+  { name: "Progress", description: "Displays an indicator showing the completion progress of a task, typically displayed as a progress bar.", docLink: "https://ui.shadcn.com/docs/components/progress" },
+  { name: "RadioGroup", description: "A set of checkable buttons—known as radio buttons—where no more than one of the buttons can be checked at a time.", docLink: "https://ui.shadcn.com/docs/components/radio-group" },
+  { name: "ScrollArea", description: "Augments native scroll functionality for custom, cross-browser styling.", docLink: "https://ui.shadcn.com/docs/components/scroll-area" },
+  { name: "Select", description: "Displays a list of options for the user to pick from—triggered by a button.", docLink: "https://ui.shadcn.com/docs/components/select" },
+  { name: "Separator", description: "Visually or semantically separates content.", docLink: "https://ui.shadcn.com/docs/components/separator" },
+  { name: "Sheet", description: "Extends the Dialog component to display content that complements the main content of the screen.", docLink: "https://ui.shadcn.com/docs/components/sheet" },
+  { name: "Skeleton", description: "Use to show a placeholder while content is loading.", docLink: "https://ui.shadcn.com/docs/components/skeleton" },
+  { name: "Slider", description: "An input where the user selects a value from within a given range.", docLink: "https://ui.shadcn.com/docs/components/slider" },
+  { name: "Switch", description: "A control that allows the user to toggle between checked and not checked.", docLink: "https://ui.shadcn.com/docs/components/switch" },
+  { name: "Table", description: "A responsive table component.", docLink: "https://ui.shadcn.com/docs/components/table" },
+  { name: "Tabs", description: "A set of layered sections of content—known as tab panels—that are displayed one at a time.", docLink: "https://ui.shadcn.com/docs/components/tabs" },
+  { name: "Textarea", description: "Displays a form textarea or a component that looks like a textarea.", docLink: "https://ui.shadcn.com/docs/components/textarea" },
+  { name: "Toast", description: "A succinct message that is displayed temporarily.", docLink: "https://ui.shadcn.com/docs/components/toast" },
+  { name: "Toggle", description: "A two-state button that can be either on or off.", docLink: "https://ui.shadcn.com/docs/components/toggle" },
+  { name: "Tooltip", description: "A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.", docLink: "https://ui.shadcn.com/docs/components/tooltip" },
+].sort((a, b) => a.name.localeCompare(b.name))
+
+export default function ComponentShowcase() {
+  const [selectedComponent, setSelectedComponent] = useState(components[0])
+
+  const ComponentExample = dynamic(() => import(`@/components/examples/${selectedComponent.name}Example`), {
+    loading: () => <p>Loading...</p>,
+    ssr: false,
+  })
+
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:size-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
+    <div className="flex h-screen">
+      <div className="w-1/2 p-4 border-r">
+        <h2 className="text-2xl font-bold mb-4">shadcn Components</h2>
+        <ScrollArea className="h-[calc(100vh-100px)]">
+          <div className="grid grid-cols-2 gap-2">
+            {components.map((component) => (
+              <Button
+                key={component.name}
+                variant="outline"
+                className="justify-start"
+                onClick={() => setSelectedComponent(component)}
+              >
+                {component.name}
+              </Button>
+            ))}
+          </div>
+        </ScrollArea>
       </div>
-
-      <div className="relative z-[-1] flex place-items-center before:absolute before:h-[300px] before:w-full before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 sm:before:w-[480px] sm:after:w-[240px] before:lg:h-[360px]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+      <div className="w-1/2 p-4">
+        <h2 className="text-2xl font-bold mb-4">Component Example</h2>
+        <Select onValueChange={(value) => setSelectedComponent(components.find(c => c.name === value) || components[0])}>
+          <SelectTrigger>
+            <SelectValue placeholder="Select a component" />
+          </SelectTrigger>
+          <SelectContent>
+            {components.map((component) => (
+              <SelectItem key={component.name} value={component.name}>
+                {component.name}
+              </SelectItem>
+            ))}
+          </SelectContent>
+        </Select>
+        <Card className="mt-4">
+          <CardHeader>
+            <CardTitle>{selectedComponent.name}</CardTitle>
+            <CardDescription>{selectedComponent.description}</CardDescription>
+          </CardHeader>
+          <CardContent>
+            <Suspense fallback={<div>Loading...</div>}>
+              <ComponentExample />
+            </Suspense>
+            <div className="mt-4">
+              <Link href={selectedComponent.docLink} target="_blank" rel="noopener noreferrer">
+                <Button>View Documentation</Button>
+              </Link>
+            </div>
+          </CardContent>
+        </Card>
       </div>
-
-      <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-balance text-sm opacity-50">
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  );
+    </div>
+  )
 }
