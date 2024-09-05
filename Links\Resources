@@ -414,6 +414,9 @@ Money Stack (ReactJS(useState + useEffect) / NextJS(Routing + SEO) / Tailwind(fa
   Extras: MagicLinks (email signup token) / MailGun (email provider) / Stripe(payments) / Plausible(analytics-29$ a month) / ChatGPT(20$ a month) / Amazon AWS-S3(image hosting bucket) CloudFront / Github Copilot : 
 https://www.youtube.com/watch?v=b_ANHgTHNSI&ab_channel=MarcLou
 
+Scalability (Discord/WhatsApp - Millions of concurrent users) = Erlang/Elixir : 
+https://www.youtube.com/watch?v=Z_FHEFao-r8
+
 Mericari(Japan) Stack:
 Backend = Go /  Google Cloud Platform (GKE, Cloud SQL for PostgreSQLなど) / GraphQL / gqlgen
 Frontend = React / TypeScript / Next.js / Apollo Client (React)
