@@ -39,6 +39,8 @@ import { Toggle } from "@/components/ui/toggle"
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip"
 import { ArrowUpRight } from 'lucide-react'
 
+// To Run : npm run dev
+
 const components = [
   { name: 'Accordion', description: 'A vertically stacked set of interactive headings that each reveal a section of content.' },
   { name: 'Alert', description: 'Displays a callout for user attention.' },
