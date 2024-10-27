@@ -6,7 +6,8 @@ Vue + Nuxt + Svelte(classic JS compiles) + Sveltekit(server side render)  vs Rea
 Where to host website: Raspberry Pi PHP webserver vs Apache webserver vs 3rd party vs github vs nginx vs wordpress vs netlify(free) vs vercel(free tier) 
 https://dev.to/jorenrui/6-ways-to-deploy-your-personal-websites--php-mysql-web-apps-for-free-4m3a
 
-Current Plan : Docker -> Go -> AWS -> HTMX -> Redis - Start Applying again, can do frontend/backend/devops/webdev/data analyst or freelance with this stack, Step 1) Escape canada. 
+Current Plan : Docker -> AWS -> Go -> Express -> PHP -> Jquery - Start Applying again, can do frontend/backend/devops/webdev/data analyst or freelance with this stack, Step 1) Escape canada. 
+  Fill up my 5 vercel projects(2 left-1 for workout app, still need to build) then create Heroku account(or other free service) for PHP/Jquery + MERN(Mongo/Express/React/Node) Practice/Resume: 
 
 FreeCodeCamp Certifications:(Do in order)
 https://www.freecodecamp.org/news/freecodecamp-certifications/
@@ -414,19 +415,8 @@ https://www.youtube.com/watch?v=H9KefzbryEw&ab_channel=freeCodeCamp.org
 https://github.com/Kliton/react-kanban-board-dnd-kit-tutorial-yt
 https://www.youtube.com/watch?v=RG-3R6Pu_Ik&ab_channel=CodewithKliton
 
-Money Stack (ReactJS(useState + useEffect) / NextJS(Routing + SEO) / Tailwind(faster than CSS) / DaisyUI(pick a theme-find a cool typeface on googlefonts) /
-  BackEnd (NextJS Serverless Functions)  / MongoDB (Backups=10$/month M0 Cluster=Free) Development use Local version / Mongoose / Vercel(hosting-20$ a month-push changes to github repo-auto pull to site)
-  Extras: MagicLinks (email signup token) / MailGun (email provider) / Stripe(payments) / Plausible(analytics-29$ a month) / ChatGPT(20$ a month) / Amazon AWS-S3(image hosting bucket) CloudFront / Github Copilot : 
-https://www.youtube.com/watch?v=b_ANHgTHNSI&ab_channel=MarcLou
-
 Scalability (Discord/WhatsApp - Millions of concurrent users) = Erlang/Elixir : 
 https://www.youtube.com/watch?v=Z_FHEFao-r8
-
-Mericari(Japan) Stack:
-Backend = Go /  Google Cloud Platform (GKE, Cloud SQL for PostgreSQLなど) / GraphQL / gqlgen
-Frontend = React / TypeScript / Next.js / Apollo Client (React)
-Mobile = Flutter / Dart
-Simply put learn GO, NEXT or FLUTTER.
 
 Learn GO :
 https://go.dev/tour/welcome/1
@@ -465,6 +455,17 @@ Vercel Vs Free Alternatives(Self Hosted) = Coolify/Dokku
 
 Lex Friedman(ptuh) + Peter Levels + KISS Stack : Vanilla PHP + Jquery = create apps that generate millions, hosted on a single 150$ a month VPS server - AspireASeans - is that enough for FU money? Step 1) Escape :
 https://www.youtube.com/watch?v=oFtjKbXKqbg&ab_channel=LexFridman
+
+Money Stack (ReactJS(useState + useEffect) / NextJS(Routing + SEO) / Tailwind(faster than CSS) / DaisyUI(pick a theme-find a cool typeface on googlefonts) /
+  BackEnd (NextJS Serverless Functions)  / MongoDB (Backups=10$/month M0 Cluster=Free) Development use Local version / Mongoose / Vercel(hosting-20$ a month-push changes to github repo-auto pull to site)
+  Extras: MagicLinks (email signup token) / MailGun (email provider) / Stripe(payments) / Plausible(analytics-29$ a month) / ChatGPT(20$ a month) / Amazon AWS-S3(image hosting bucket) CloudFront / Github Copilot : 
+https://www.youtube.com/watch?v=b_ANHgTHNSI&ab_channel=MarcLou
+
+Mericari(Japan) Stack:
+Backend = Go /  Google Cloud Platform (GKE, Cloud SQL for PostgreSQLなど) / GraphQL / gqlgen
+Frontend = React / TypeScript / Next.js / Apollo Client (React)
+Mobile = Flutter / Dart
+Simply put learn GO, NEXT or FLUTTER.
 
 JS to know for React:==============================================================================================================================================================================================================
 Array Functions(.map, .sort, .filter, .reduce, .etc):
