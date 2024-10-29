@@ -438,6 +438,9 @@ Go + HTMX = Simple Tech Stack
 Go Projects x5 (ToDo App-CLI Terminal, Backend Stateless Web API, Webscraper for dead links, URL Shortener website, Currency Converter-Terminal UI) :
 https://www.youtube.com/watch?v=gXmznGEW9vo
 
+FCC - SvelteKit for beginners - Landing page (2024-1.5Hours):
+https://www.youtube.com/watch?v=vb7CgDcA_6U&ab_channel=freeCodeCamp.org
+
 Web Tools : NodePackageManger(NPM), Webpack, Parcel, Viite, Snowpack
 API's: Canvas, Geolocation, Speech, Audio/video, Web RTC(real time communication), local storage 
 Static Site Generators(search engine speed): Gatsby(React), Astro(React/Vue/Svelt), Gridsome(Vue), Jekyll(Ruby), Hugo(Go), Hexo(Node.js), Pelican(Python)
