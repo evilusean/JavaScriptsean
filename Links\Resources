@@ -487,6 +487,38 @@ Simply put learn GO, NEXT or FLUTTER.
 Best Stack for Serverside rendering :
 PHP Laravel Vs MERN(Mongo-Express-React-Node) Vs NextJS
 
+BLOG APP = FUTURE SEAN PROBLEM AFTER WORKOUT APP =============================================================================================================================================================
+Make a daily blog sort of like drudge report with links to sites - other news stories like drudge report sans lewinsky break - monetizeASean with google ad sense - 
+will contain likes/comments/profiles/authenticASean/eventually forums - baby steps, crawl, walk, run - maybe an addon wrapper to bring back dislikes on youtube videos/other sites or sharing
+  I miss review bombing state propaganda/corporate media(synonymous)
+A space to put my sterilized(removed no-no words) daily thoughts and hot takes outside of obsidian, maybe make some passive income, and store some old links/stories for future sean 
+Potential Stack(1st iterASean) : 
+Frontend:
+- Next.js: For server-side rendering, static site generation, and API routes
+- React: As the UI library (comes with Next.js)
+- TypeScript: For type safety and better developer experience
+- Tailwind CSS: For rapid and responsive UI development
+- shadcn/ui: For pre-built, customizable UI components
+Backend:
+- Next.js API routes: For serverless API endpoints
+- Supabase: As the backend-as-a-service for database, authentication, and real-time features
+Database:
+- Supabase (PostgreSQL): For storing blog posts, comments, user data, and other structured data
+Authentication:
+- Supabase Auth: For user authentication and management
+Content Management:
+- MDX: For rendering Markdown with React components (useful for embedding videos and custom elements in your blog posts)
+- next-mdx-remote: For server-side rendering of MDX content
+Image Handling:
+- next/image: For optimized image loading and processing
+- Supabase Storage: For storing and serving images and other media files
+Deployment and Hosting:
+- Vercel: For hosting and automatic deployments
+Additional Tools:
+- SWR or React Query: For data fetching, caching, and state management
+- date-fns: For date formatting and manipulation
+- Zod: For schema validation
+
 JS to know for React:==========================================================================================================================================================================================
 Array Functions(.map, .sort, .filter, .reduce, .etc):
 https://dev.to/devsmitra/28-javascript-array-hacks-a-cheat-sheet-for-developer-5769
