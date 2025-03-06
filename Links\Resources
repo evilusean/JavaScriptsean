@@ -488,6 +488,8 @@ Debugging / Testing: Jest
 
 Vercel Vs Free Alternatives(Self Hosted) = Coolify/Dokku
 
+PHP + PostGreSQL + Heroku - Create a new program/app for resume with full working frontend/backend with auth / posts / login / etc - postgree is the best for write operations (MySQL for read)
+
 Lex Friedman(ptuh) + Peter Levels + KISS Stack : Vanilla PHP + Jquery = create apps that generate millions, hosted on a single 150$ a month VPS server - AspireASeans - is that enough for FU money? Step 1) Escape :
 https://www.youtube.com/watch?v=oFtjKbXKqbg&ab_channel=LexFridman
 
