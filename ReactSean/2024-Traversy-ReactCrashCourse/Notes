@@ -1,1 +1,14 @@
 Start : 08March2025 
+Traversy - React Crash Course :
+
+Took like 6 months off of using React and lost alot, need to brush up before I move forward and git a job
+Course builds a 'Job Listing Website' frontend with React backend
+Will Learn : Props/components/State/Hooks/DataFetching/Routing/MPA(MultiPage Application)/JSON Server Library Objects to create a rest API/
+
+2:00 - What is React? =========================================================================================================================================================================
+Built by FB - is a JS library / framework for building UI
+Websites/UIs are looked at in terms of components
+Currently most popular out of the major front-end frameworks
+can be used for SPA/MPA/Server side rendering/static websites
+
+3:45 - Why React? =============================================================================================================================================================================
