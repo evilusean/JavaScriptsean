@@ -1,4 +1,4 @@
-Start : 08March2025 </br>
+Start : </br>
 End : </br>
 
 Haven't used react in months and already forgot a tonne, going to get reoriented with : </br>
