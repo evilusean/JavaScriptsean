@@ -12,3 +12,88 @@ Currently most popular out of the major front-end frameworks
 can be used for SPA/MPA/Server side rendering/static websites
 
 3:45 - Why React? =============================================================================================================================================================================
+React allows you to build very dynamic and interactive wbesites and user interfaces
+Very fast - especially with the new compiler
+Huge ecosystem (Next.JS/React Native/Remix)
+Money. Best Framwork to learn to git a job.
+AJAX - before react, allowed you to get data without refreshing the page
+DOM = Document Object Model = Structure of website - 'element.' 'document.' methods to change properties = how the browser interprets/renders a website and what the user sees
+React uses a virtual DOM = when the state of a component changes, the virtual DOM changes, and it doesn't rerender the entire page, just that component
+Svelte and Vue are easier, do the same thing as React but with less code / easier syntax
+
+7:25 - Components =============================================================================================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
