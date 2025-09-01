@@ -17,6 +17,12 @@ After completeing all the above, section off CV/Resume into stacks = 6(5)x proje
 
 Heroku no longer has a free tier, in order to host PHP online use InfinityFree/000webhost:/Render/GoogieHost/FreeHosting/etc to practice PHP and add to resume 
 
+MailPit (free way to test your apps with email auth/registration) :
+https://mailpit.axllent.org/
+https://mailpit.axllent.org/docs/
+https://mailpit.axllent.org/docs/install/
+'yay -S mailpit-bin' #install on arch linux
+
 Vercel V0 Dev AI Assitant Editor (for Next.JS WebApps) :
 https://v0.dev/
 NextJS Vs React Router V7 Vs Tanstack Start (Other Options, if you don't want to be tied down to Vercel with NextJS)
