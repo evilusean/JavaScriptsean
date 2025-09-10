@@ -53,10 +53,10 @@ https://stacksorted.com/
 Social Share Preview Will check how your website will be displayed when shared on various social media sites:
 https://socialsharepreview.com/
 
+Icons :
 BoxIcons Free Icons:
 https://boxicons.com/
 https://boxicons.com/usage
-
 SVG Icons:
 https://heroicons.com/
 
@@ -65,15 +65,27 @@ https://tailwindcss.com/docs/installation
 https://tailwindcss.com/docs/editor-setup
 https://github.com/tailwindlabs/prettier-plugin-tailwindcss
 
+MailPit (free way to test your apps with email auth/registration) :
+https://mailpit.axllent.org/
+https://mailpit.axllent.org/docs/
+https://mailpit.axllent.org/docs/install/
+'yay -S mailpit-bin' #install on arch linux
+
+Components :
+ShadCN (collection of reusable React components that are not a traditional library but rather snippets of code you can copy and paste into your project with no dependancies) : 
+https://ui.shadcn.com/docs/components
+Flowbite (open-source library of UI components built on Tailwind CSS that provides ready-to-use, interactive elements with a single dependency - just search for what you need) : 
+https://flowbite.com/
+https://flowbite.com/docs/getting-started/introduction/
+ShadCN UI:
+https://ui.shadcn.com/docs
+
 Daisy UI Configuration:
 https://daisyui.com/docs/install/
 DaisyUI is a components libarary, that has components prebuilt that are already configured, buttons, modal dialogues, progress bar, custom themes, theme generator - copy paste into tailwind file
 https://daisyui.com/theme-generator/
 Daisy UI components:
 https://daisyui.com/components/input/
-
-ShadCN UI:
-https://ui.shadcn.com/docs
 
 MongoDB:
 https://www.mongodb.com/atlas/database
