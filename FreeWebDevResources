@@ -138,6 +138,8 @@ The purpose of 'Alpine.js' is to provide Reactivity and interactivity to your HT
 https://alpinejs.dev/
 https://alpinejs.dev/start-here
 
+Axios - is a promise-based HTTP client for JavaScript that makes it easy to send asynchronous requests from a frontend to a backend, automatically enabled in laravel :
+https://axios-http.com/docs/intro
 
 
 
