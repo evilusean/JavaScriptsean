@@ -18,6 +18,8 @@ Components :
 ShadCN (collection of reusable React components that are not a traditional library but rather snippets of code you can copy and paste into your project with no dependancies) :
 https://ui.shadcn.com/docs
 https://ui.shadcn.com/docs/components
+TweakCN (add color easily to ShadCN) :
+https://tweakcn.com/
 Flowbite (open-source library of UI components built on Tailwind CSS that provides ready-to-use, interactive elements with a single dependency - just search for what you need) : 
 https://flowbite.com/
 https://flowbite.com/docs/getting-started/introduction/
